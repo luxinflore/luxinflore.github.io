@@ -4,7 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>{{ page.title }}</title>
-  <link rel="stylesheet" href="/style.css" />
+  <link rel="stylesheet" href="{{ '/style.css' | relative_url }}" />
 </head>
 <body>
   <div class="container">
@@ -13,19 +13,9 @@
       {{ content }}
     </div>
   </div>
-<script>
-  document.querySelectorAll('a').forEach(link => {
-    link.addEventListener('mouseenter', () => {
-      const cat = document.createElement('div');
-      cat.className = 'cat-runner';
-      document.body.appendChild(cat);
 
-      setTimeout(() => {
-        cat.remove();
-      }, 3000); // match animation duration
-    });
-  });
-</script>
+  <!-- External JavaScript for cat animation -->
+  <script src="{{ '/script.js' | relative_url }}"></script>
 </body>
 </html>
 
