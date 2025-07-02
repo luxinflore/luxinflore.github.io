@@ -3,7 +3,7 @@ document.querySelectorAll('.sparkle-cat, .cat-hover-link').forEach(link => {
     const isNav = link.classList.contains('cat-hover-link');
 
     const cat = document.createElement('img');
-    cat.src = 'https://s1.ezgif.com/tmp/ezgif-120326da7e518e.gif';
+    cat.src = '/assets/images/catGIF.gif';
     cat.classList.add(isNav ? 'cat-run' : 'cat-jump');
 
     // Position near the link
