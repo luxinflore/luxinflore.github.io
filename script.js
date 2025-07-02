@@ -1,21 +1,19 @@
 document.querySelectorAll('.sparkle-cat').forEach(link => {
   link.addEventListener('mouseenter', () => {
+    const img = document.createElement('img');
+    img.src = 'https://cdnb.artstation.com/p/assets/images/images/046/491/445/original/chat-poteley-animation.gif?1645234590'
+    img.className = 'cat-jump-img';
 
-	console.log('Cat hover triggered');
-		  
-    const cat = document.createElement('div');
-    cat.classList.add('cat-jump');
-
-    // Positions the cat relative to the hovered link
     const rect = link.getBoundingClientRect();
-    cat.style.top = `${rect.top + window.scrollY - 40}px`; // 40px above
-    cat.style.left = `${rect.left + window.scrollX}px`;
+    img.style.top = `${rect.top + window.scrollY - 60}px`; // 60px above the link
+    img.style.left = `${rect.left + window.scrollX}px`;
 
-    document.body.appendChild(cat);
+    document.body.appendChild(img);
 
-    cat.addEventListener('animationend', () => {
-      cat.remove();
+    img.addEventListener('animationend', () => {
+      img.remove();
     });
   });
 });
+
 
