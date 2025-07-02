@@ -1,4 +1,4 @@
-document.querySelectorAll('.sparkle-cat').forEach(link => {
+document.querySelectorAll('.sparkle-cat, .cat-hover-link').forEach(link => {
   link.addEventListener('mouseenter', () => {
     const cat = document.createElement('img');
     cat.src = 'https://s1.ezgif.com/tmp/ezgif-120326da7e518e.gif';
@@ -16,5 +16,4 @@ document.querySelectorAll('.sparkle-cat').forEach(link => {
     }, 1000); // match animation duration
   });
 });
-
 
