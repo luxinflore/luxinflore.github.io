@@ -92,7 +92,7 @@ a:hover::after {
 
 .cat-jump {
   position: absolute;
-  bottom: 100%;
+  top: 0;
   left: 0;
   width: 60px;
   height: auto;
