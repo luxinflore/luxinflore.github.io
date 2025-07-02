@@ -1,3 +1,4 @@
+/* Base styling */
 body {
   font-family: system-ui, sans-serif;
   font-size: 18px;
@@ -7,6 +8,7 @@ body {
   color: #000;
 }
 
+/* Layout container */
 .container {
   display: flex;
   max-width: 1200px;
@@ -14,9 +16,17 @@ body {
   padding: 0 20px;
 }
 
+/* Sidebar styling */
 .sidebar {
   min-width: 180px;
   margin-right: 40px;
+}
+
+/* Sidebar nav vertically aligned */
+.sidebar nav {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
 }
 
 .sidebar h2 {
@@ -24,14 +34,27 @@ body {
   font-size: 22px;
 }
 
+/* Main content styling */
+.main {
+  flex: 1;
+  max-width: 700px;
+  line-height: 1.6;
+}
+
+p {
+  margin-bottom: 1em;
+}
+
+/* Link styling */
 a {
   color: #0066cc;
   text-decoration: none;
   position: relative;
   display: inline-block;
-  transition: color 0.3s ease;
+  transition: color 0.3s ease, text-shadow 0.3s ease;
 }
 
+/* Rainbow underline effect */
 a::after {
   content: '';
   position: absolute;
@@ -54,65 +77,38 @@ a::after {
   pointer-events: none;
 }
 
+/* Hover sparkle effect */
 a:hover {
   color: black;
+  text-shadow: 0 0 8px gold, 0 0 12px #ff69b4;
 }
 
 a:hover::after {
   opacity: 1;
 }
 
-a.sparkle-cat {
-  display: inline-block;
-  position: relative;
-  overflow: visible;
+/* Cat animation element */
+.cat-runner {
+  position: fixed;
+  bottom: 0;
+  left: -150px;
+  width: 80px;
+  height: 50px;
+  background-image: url('https://media.giphy.com/media/v6aOjy0Qo1fIA/giphy.gif'); /* Replace with transparent cat if desired */
+  background-size: contain;
+  background-repeat: no-repeat;
+  animation: run-cat 3s linear forwards;
+  pointer-events: none;
+  z-index: 9999;
 }
 
-/* Sparkle animation */
-a.sparkle-cat::before {
-  content: '✨';
-  position: absolute;
-  top: -1.2em;
-  left: 0;
-  opacity: 0;
-  transform: scale(0.5);
-  transition: all 0.3s ease;
-}
-
-/* Running cat trail */
-a.sparkle-cat::after {
-  content: ' 🐈‍⬛🐈🐈‍⬛';
-  position: absolute;
-  bottom: -1.2em;
-  left: 0;
-  opacity: 0;
-  transition: all 0.3s ease;
-}
-
-a.sparkle-cat:hover::before,
-a.sparkle-cat:hover::after {
-  opacity: 1;
-  animation: sparkle-pop 0.6s ease, cat-run 1.5s linear infinite;
-}
-
-@keyframes sparkle-pop {
-  0% { transform: scale(0.5) rotate(0deg); opacity: 0; }
-  50% { transform: scale(1.2) rotate(20deg); opacity: 1; }
-  100% { transform: scale(1) rotate(0deg); opacity: 0; }
-}
-
-@keyframes cat-run {
-  0% { transform: translateX(0); }
-  100% { transform: translateX(100px); }
-}
-
-.main {
-  flex: 1;
-  max-width: 700px;
-  line-height: 1.6;
-}
-
-p {
-  margin-bottom: 1em;
+/* Cat run keyframes */
+@keyframes run-cat {
+  0% {
+    left: -150px;
+  }
+  100% {
+    left: 110vw;
+  }
 }
 

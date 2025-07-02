@@ -13,6 +13,19 @@
       {{ content }}
     </div>
   </div>
+<script>
+  document.querySelectorAll('a').forEach(link => {
+    link.addEventListener('mouseenter', () => {
+      const cat = document.createElement('div');
+      cat.className = 'cat-runner';
+      document.body.appendChild(cat);
+
+      setTimeout(() => {
+        cat.remove();
+      }, 3000); // match animation duration
+    });
+  });
+</script>
 </body>
 </html>
 
