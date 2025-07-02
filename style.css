@@ -62,6 +62,50 @@ a:hover::after {
   opacity: 1;
 }
 
+a.sparkle-cat {
+  display: inline-block;
+  position: relative;
+  overflow: visible;
+}
+
+/* Sparkle animation */
+a.sparkle-cat::before {
+  content: '✨';
+  position: absolute;
+  top: -1.2em;
+  left: 0;
+  opacity: 0;
+  transform: scale(0.5);
+  transition: all 0.3s ease;
+}
+
+/* Running cat trail */
+a.sparkle-cat::after {
+  content: ' 🐈‍⬛🐈🐈‍⬛';
+  position: absolute;
+  bottom: -1.2em;
+  left: 0;
+  opacity: 0;
+  transition: all 0.3s ease;
+}
+
+a.sparkle-cat:hover::before,
+a.sparkle-cat:hover::after {
+  opacity: 1;
+  animation: sparkle-pop 0.6s ease, cat-run 1.5s linear infinite;
+}
+
+@keyframes sparkle-pop {
+  0% { transform: scale(0.5) rotate(0deg); opacity: 0; }
+  50% { transform: scale(1.2) rotate(20deg); opacity: 1; }
+  100% { transform: scale(1) rotate(0deg); opacity: 0; }
+}
+
+@keyframes cat-run {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(100px); }
+}
+
 .main {
   flex: 1;
   max-width: 700px;
