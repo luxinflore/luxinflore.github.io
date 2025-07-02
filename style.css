@@ -88,27 +88,39 @@ a:hover::after {
 }
 
 /* Cat animation element */
-.cat-runner {
-  position: fixed;
-  bottom: 0;
-  left: -150px;
-  width: 80px;
-  height: 50px;
-  background-image: url('https://media.giphy.com/media/v6aOjy0Qo1fIA/giphy.gif'); /* Replace with transparent cat if desired */
-  background-size: contain;
-  background-repeat: no-repeat;
-  animation: run-cat 3s linear forwards;
-  pointer-events: none;
-  z-index: 9999;
+a.cat-hover-wrapper {
+  position: relative;
+  display: inline-block;
 }
 
-/* Cat run keyframes */
-@keyframes run-cat {
+.cat-jump {
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  width: 60px;
+  height: auto;
+  background-image: url('https://media.giphy.com/media/MDJ9IbxxvDUQM/giphy.gif');
+  background-size: contain;
+  background-repeat: no-repeat;
+  animation: jump-cat 1s linear forwards;
+  pointer-events: none;
+  z-index: 999;
+}
+
+@keyframes jump-cat {
   0% {
-    left: -150px;
+    left: 0;
+    opacity: 1;
+  }
+  50% {
+    left: 50%;
+    transform: translateY(-20px);
   }
   100% {
-    left: 110vw;
+    left: 100%;
+    opacity: 0;
   }
 }
+
+
 
