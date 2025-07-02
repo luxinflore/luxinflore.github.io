@@ -88,10 +88,7 @@ a:hover::after {
 }
 
 /* Cat animation element */
-a.cat-hover-wrapper {
-  position: relative;
-  display: inline-block;
-}
+
 
 .cat-jump {
   position: absolute;
@@ -99,7 +96,7 @@ a.cat-hover-wrapper {
   left: 0;
   width: 60px;
   height: auto;
-  background-image: url('https://media.giphy.com/media/MDJ9IbxxvDUQM/giphy.gif');
+  background-image: url('https://media.giphy.com/media/mCRJDo24UvJMA/giphy.gif');
   background-size: contain;
   background-repeat: no-repeat;
   animation: jump-cat 1s linear forwards;
