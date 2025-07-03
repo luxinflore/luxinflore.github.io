@@ -51,12 +51,14 @@ a {
   text-decoration: none;
   position: relative;
   display: inline-block;
-  transition: color 0.3s ease, text-shadow 0.3s ease;
+  transition:
+    color 0.3s ease,
+    text-shadow 0.3s ease;
 }
 
 /* Rainbow underline effect */
 a::after {
-  content: '';
+  content: "";
   position: absolute;
   left: 0;
   right: 0;
@@ -80,7 +82,9 @@ a::after {
 /* Hover sparkle effect */
 a:hover {
   color: black;
-  text-shadow: 0 0 8px gold, 0 0 12px #ff69b4;
+  text-shadow:
+    0 0 8px gold,
+    0 0 12px #ff69b4;
 }
 
 a:hover::after {
@@ -180,8 +184,3 @@ a:hover::after {
     margin: 0 auto 1em auto;
   }
 }
-
-
-
-
-
