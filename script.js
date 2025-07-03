@@ -35,11 +35,22 @@ document.querySelectorAll('.sparkle-cat, .cat-hover-link').forEach(link => {
   link.addEventListener('mouseenter', showCat);
 
   // Mobile tap/click support
-  link.addEventListener('click', event => {
-    // Prevent link navigation just for visual effect (optional)
-    if (link.classList.contains('cat-hover-link')) event.preventDefault();
-    showCat();
-  });
+link.addEventListener('click', event => {
+  const isNav = link.classList.contains('cat-hover-link');
+
+  if (isNav) {
+    event.preventDefault(); // Stop immediate navigation
+    showCat(); // Trigger animation
+
+    const href = link.getAttribute('href');
+    setTimeout(() => {
+      window.location.href = href;
+    }, 400); // Delay for animation visibility
+  } else {
+    showCat(); // For sparkle-cat links, no nav delay
+  }
+});
+
 });
 
 
