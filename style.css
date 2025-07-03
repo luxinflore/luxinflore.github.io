@@ -159,6 +159,27 @@ a:hover::after {
   }
 }
 
+@media screen and (max-width: 768px) {
+  .container {
+    flex-direction: column;
+    padding: 0 16px;
+  }
+
+  .sidebar {
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+
+  .main {
+    max-width: 100%;
+  }
+
+  img.profile-pic {
+    width: 120px;
+    display: block;
+    margin: 0 auto 1em auto;
+  }
+}
 
 
 
