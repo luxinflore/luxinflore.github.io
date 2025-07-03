@@ -3,7 +3,7 @@ layout: default
 title: Aya Gare
 ---
 
-<img src="/assets/images/Aya.png" alt="Pic of Aya" width="100" />
+<img src="/assets/images/Aya.png" alt="Pic of Aya" width="200" />
 
 Welcome. I’m a product manager, engineer, and entrepreneur.
 
