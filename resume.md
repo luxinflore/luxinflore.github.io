@@ -11,7 +11,7 @@ permalink: /resume/
 **Product builder with engineering roots**, designing products across software and hardware that connect system logic to user needs — spanning aerospace, robotics, medical technology, digital marketing, and consumer tools.
 
 📍 Boston, MA, USA  
-✉️  [hello@ayagare.com](mailto:hello@ayagare.com)
+✉️  [hello@ayagare.com](mailto:hello@ayagare.com)  
 🌐 [linkedin.com/in/aya-gare](https://linkedin.com/in/aya-gare)
 
 ---
