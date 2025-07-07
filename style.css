@@ -251,3 +251,13 @@ a:hover::after {
   }
 }
 
+.center-content {
+  text-align: center;
+}
+
+.center-content img {
+  display: block;
+  margin: 1.5em auto;
+  max-width: 100%;
+}
+
