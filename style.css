@@ -211,3 +211,35 @@ a:hover::after {
   font-size: 1em;
 }
 
+/* Hide nav-toggle button on desktop */
+.nav-toggle {
+  display: none;
+  font-size: 1.8em;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0.3em;
+}
+
+/* Mobile nav */
+@media screen and (max-width: 768px) {
+  .sidebar {
+    margin-bottom: 20px;
+  }
+
+  .nav-toggle {
+    display: inline-block;
+    margin-bottom: 1em;
+  }
+
+  nav#nav-menu {
+    display: none;
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  nav#nav-menu.show {
+    display: flex;
+  }
+}
+
