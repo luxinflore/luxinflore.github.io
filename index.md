@@ -3,7 +3,7 @@ layout: default
 title: Aya Gare
 ---
 
-<img src="/assets/images/Aya.png" alt="Pic of Aya" width="200" />
+<img src="/assets/images/profile.png" alt="Pic of Aya" width="200" />
 
 ### _I explore real–world problems & design thoughtful solutions._
 
