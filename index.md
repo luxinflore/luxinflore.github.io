@@ -18,7 +18,9 @@ Here you'll find product case studies, experimental projects, & ideas I can't st
 
 I build thoughtful products across software and hardware—from distributed systems to user-facing tools. -->
 
-<img src="/assets/images/email.gif" alt="Email" width="100" />
+<div style="text-align: center;">
+  <img src="/assets/images/email.gif" alt="Email" style="max-width: 25%;" />
+</div>
 
 You can reach me at <span class="cat-hover-wrapper"><a href="mailto:hello@ayagare.com" class="sparkle-cat">hello@ayagare.com</a></span>.
 
