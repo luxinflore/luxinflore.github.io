@@ -5,11 +5,12 @@ title: Aya Gare
 
 <div class="center-content">
 
-<img src="/assets/images/profile.png" alt="Profile Pic" width="200" />
-
-**Hi, I'm Aya!**
+<img src="/assets/images/profile.png" alt="Profile Pic" width="200" /> 
+  
+**Hi, I'm Aya!**  
 
 ### _I explore real–world problems & design thoughtful solutions._
+
 
 I'm a product thinker & creative who cares about how people and animals live, feel, & make decisions. I build thoughtful, user-centered products across software and hardware—from distributed systems to intuitive tools. I care deeply about impact, precision, and empathy in product development. 
 
