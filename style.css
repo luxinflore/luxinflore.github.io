@@ -184,3 +184,20 @@ a:hover::after {
     margin: 0 auto 1em auto;
   }
 }
+
+.nav-sublist {
+  list-style: none;
+  padding-left: 1em;
+  margin: 0;
+}
+
+.nav-sublist li {
+  margin: 0.2em 0;
+}
+
+.sidebar h3 {
+  margin-top: 1.5em;
+  font-size: 1.1em;
+  font-weight: bold;
+}
+
