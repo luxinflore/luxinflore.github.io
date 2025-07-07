@@ -20,5 +20,5 @@ I build thoughtful products across software and hardware—from distributed syst
 
 You can reach me at <span class="cat-hover-wrapper"><a href="mailto:hello@ayagare.com" class="sparkle-cat">hello@ayagare.com</a></span>.
 
-<img src="/assets/images/flowers.png" alt="Flowers" class="flowers" />
+<img src="/assets/images/flowers.png" alt="Flowers" width="300" />
 
