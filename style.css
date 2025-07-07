@@ -23,10 +23,18 @@ body {
 }
 
 /* Sidebar nav vertically aligned */
+/* Default: hidden on mobile */
 .sidebar nav {
-  display: flex;
-  flex-direction: column;
-  gap: 12px;
+  display: none;
+}
+
+/* Desktop sidebar layout */
+@media screen and (min-width: 769px) {
+  .sidebar nav {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
 }
 
 .sidebar h2 {
