@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Success Metrics
-permalink: /succcess-metrics/
+permalink: /success-metrics/
 ---
 
 # TBD
