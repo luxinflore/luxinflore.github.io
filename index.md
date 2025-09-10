@@ -9,11 +9,18 @@ title: Aya Gare
 
 **Hi, I'm Aya!**  
 
-### _I explore real–world problems & design thoughtful solutions._
+_I'm a product thinker & creative who cares about how people and animals live, feel, & make decisions. I build thoughtful, user-centered products across software and hardware—from distributed systems to intuitive tools. I care deeply about impact, precision, and empathy in product development._ 
 
-I'm a product thinker & creative who cares about how people and animals live, feel, & make decisions. I build thoughtful, user-centered products across software and hardware—from distributed systems to intuitive tools. I care deeply about impact, precision, and empathy in product development. 
+Industry Experience (2016 – 2025)
 
-Here you'll find product case studies, experimental projects, & ideas I can't stop thinking about.
+📧 Email Marketing: ~3 years
+
+🩺 Medical Devices: ~4 years
+
+📦 Consumer Goods: ~2 years
+
+✈️⚡ Aerospace & Energy: ~1 year
+
 
 <div class="center-content">
   <img src="/assets/images/email.gif" alt="Email" style="max-width: 15%;" />
