@@ -261,3 +261,18 @@ a:hover::after {
   max-width: 100%;
 }
 
+.industry-experience {
+  text-align: center;
+  font-size: 0.9em;       /* slightly smaller */
+  line-height: 1.5;
+  margin: 2em auto;       /* centers the block with space around */
+  max-width: 500px;       /* prevents text from stretching too wide */
+  background: #f9f9f9;    /* optional light background */
+  padding: 1em 1.5em;
+  border-radius: 8px;     /* rounded corners */
+}
+
+.industry-experience p {
+  margin: 0.4em 0;
+}
+
