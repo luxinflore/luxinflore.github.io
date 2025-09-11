@@ -307,3 +307,62 @@ a:hover::after {
   margin: 0.4em 0;
 }
 
+.definition-card {
+  max-width: 700px;
+  margin: 2em 0;
+  padding: 1.2em 1.4em;
+  border: 1px solid #e6e6e6;
+  border-radius: 10px;
+  background: #fafafa;
+}
+
+.def-headword {
+  font-size: 1.6em;
+  font-weight: 700;
+  letter-spacing: 0.2px;
+  margin-bottom: 0.1em;
+}
+
+.def-pronunciations {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6em;
+  align-items: center;
+  font-size: 0.95em;
+  color: #444;
+  margin-bottom: 0.3em;
+}
+
+.def-phonetic { font-style: italic; }
+.def-divider { opacity: 0.5; }
+.def-ipa { font-family: ui-monospace, SFMono-Regular, Menlo, monospace; }
+
+.def-pos {
+  text-transform: lowercase;
+  font-weight: 600;
+  font-size: 0.95em;
+  color: #666;
+  margin: 0.3em 0 0.6em;
+}
+
+.def-senses {
+  margin: 0.3em 0 0.6em 1.2em; /* nice indent for numbers */
+  padding: 0;
+}
+
+.def-senses li {
+  margin: 0.4em 0;
+  line-height: 1.5;
+}
+
+.def-example {
+  margin-top: 0.6em;
+  font-style: italic;
+  color: #555;
+}
+
+.def-source {
+  margin-top: 0.6em;
+  font-size: 0.9em;
+  color: #555;
+}
