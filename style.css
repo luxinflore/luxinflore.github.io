@@ -276,3 +276,18 @@ a:hover::after {
   margin: 0.4em 0;
 }
 
+.approach-heading {
+  text-align: center;
+  font-size: 0.95em;      /* slightly smaller than main body */
+  line-height: 1.4;
+  margin: 2em auto;
+  max-width: 500px;
+  background: #f9f9f9;    /* subtle background */
+  padding: 1em 1.5em;
+  border-radius: 8px;
+}
+
+.approach-heading p {
+  margin: 0.4em 0;
+}
+
