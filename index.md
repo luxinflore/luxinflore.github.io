@@ -9,7 +9,7 @@ title: Aya Gare
 
 **Hi, I'm Aya!**  
 
-_I'm a product thinker & creative who cares about how people and animals live, feel, & make decisions. I build thoughtful, user-centered products across software and hardware—from distributed systems to intuitive tools. I care deeply about impact, precision, and empathy in product development._ 
+_I'm a product thinker and creative who cares about how people and animals live, feel, and make decisions. I build thoughtful, user-centered products across software and hardware, with a deep commitment to empathizing with the user experience and creating products that are beautiful, effortless, and enjoyable._ 
 
 <div class="industry-experience">
   <p><strong>Industry Experience (2016 – 2025)</strong></p>
