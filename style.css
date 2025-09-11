@@ -366,3 +366,15 @@ a:hover::after {
   font-size: 0.9em;
   color: #555;
 }
+
+/* Inline PDF viewer */
+.pdf-frame {
+  width: 100%;
+  height: 80vh;   /* responsive: 80% of the viewport height */
+  border: none;
+}
+
+/* Optional: hide inline viewer on small screens, show only the link */
+@media (max-width: 768px) {
+  .pdf-desktop { display: none; }
+}
