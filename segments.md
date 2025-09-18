@@ -4,16 +4,25 @@ title: User Segments
 permalink: /user-segments/
 ---
 
-<!-- Section Heading -->
+<!-- Section Heading 
 <div class="approach-heading">
   <p><strong>My Approach to Product</strong></p>
   <p>🧩 User Segments</p>
 </div>
+-->
+
+> **When to use this card:**
+> Pull out this framework whenever you’re deciding **which audience to prioritize** for a new product or during feature discovery, roadmap planning, or any time you need to compare the value of different user groups.
+
+
+# 🧩 User Segments
+
+TL;DR:
+Identify and score your key audiences so you can focus product decisions where they matter most.
+
 
 Let's cover "User Segments" and how they weave into product design!
-
 First off, let's make sure we quickly define the playing field:
-
 <!-- Definition: User Segments -->
 <div class="definition-card">
   <div class="def-headword">user segments</div>
@@ -32,11 +41,12 @@ First off, let's make sure we quickly define the playing field:
 </div>
 
 
-<!-- Product Principles -->
+<!-- Product Principles 
 <div class="product-principles">
   <p><strong>Product Principles</strong></p>
   <p>⚡ Make it convenient!</p>
   <p>💅 Make it aesthetic!</p>
   <p>🔁 Make it gratifying!</p>
 </div>
+-->
  
