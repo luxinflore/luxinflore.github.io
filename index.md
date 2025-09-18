@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Aya Gare
+title: Home
 ---
 
 <div class="center-content">
