@@ -11,8 +11,10 @@ permalink: /user-segments/
 </div>
 -->
 
-> **When to use this card:**
-> Pull out this framework whenever you’re deciding **which audience to prioritize** for a new product or during feature discovery, roadmap planning, or any time you need to compare the value of different user groups.
+<div class="card-usage">
+  <strong>When to use this card:</strong>
+  Pull out this framework whenever you’re deciding <em>which audience to prioritize</em> for a new product or during feature discovery, roadmap planning, or any time you need to compare the value of different user groups.
+</div>
 
 
 # 🧩 User Segments

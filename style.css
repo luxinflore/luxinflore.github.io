@@ -378,3 +378,18 @@ a:hover::after {
 @media (max-width: 768px) {
   .pdf-desktop { display: none; }
 }
+
+.card-usage {
+  border-left: 4px solid #4CAF50; /* green accent */
+  background: #f6f8fa;
+  padding: 0.75rem 1rem;
+  margin: 1rem 0;
+  font-size: 0.95rem;
+  line-height: 1.5;
+  border-radius: 6px;
+}
+.card-usage strong {
+  display: block;
+  margin-bottom: 0.25rem;
+}
+
