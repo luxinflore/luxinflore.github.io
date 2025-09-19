@@ -21,8 +21,14 @@ permalink: /user-segments/
 <div class="section-card blue" markdown="1">
 
 ## TL;DR Outcome
-Score each segment by Reach × Impact × Urgency and focus on the highest total. 
+**What:**  
+Investigate and define user segments tailored to your product type (0→1 or 1→N, software, hardware, or hybrid) and market (B2B or B2C).
 
+**How:**  
+Score each segment by Reach × Impact × Urgency.
+
+**Why:**  
+Guide product design, prioritization, and messaging, and revisit as your product and market evolve.
 </div>
 
 <div class="section-card purple" markdown="1">
@@ -78,6 +84,7 @@ Evaluate each segment on the following 3 dimensions:
 ## Quick-Reference Scoring Table 
 Use this ready-to-fill table during workshops or planning session:  
 [Google Sheet: User Segment Scoring Template](https://docs.google.com/spreadsheets/d/1EvuxWkeXJDdtvnv-HuwjaLi6QtMQKWMaNdqXC6rutIA/edit?usp=sharing)
+
 (This may not properly render on mobile without the Google Sheets app)
 
 It will look something like this:
