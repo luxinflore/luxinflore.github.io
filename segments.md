@@ -11,44 +11,29 @@ permalink: /user-segments/
 </div>
 -->
 
+# 🧩 User Segments
+
 <div class="card-usage">
   <strong>When to use this card:</strong>
   Pull out this framework whenever you’re deciding <em>which audience to prioritize</em> for a new product or during feature discovery, roadmap planning, or any time you need to compare the value of different user groups.
 </div>
 
-
-# 🧩 User Segments
-
-## TL;DR Outcome:
+## TL;DR Outcome
 Score each segment by Reach × Impact × Urgency and focus on the highest total. 
 
-## Definition
-<div class="definition-card">
-  <p class="def-title">user segment <span class="def-pos-inline">noun</span></p>
-  <p>A distinct group of users who share meaningful characteristics, like context, behaviors, or needs, so products, features, or messaging can be tailored to them.</p>
+## Definitions
+<div class="definition-card defs-grid">
+  <div class="def-col">
+    <p class="def-title">User segment <span class="def-pos-inline">noun</span></p>
+    <p>A distinct group of users who share meaningful characteristics, like context, behaviors, or needs, so products, features, or messaging can be tailored to them.</p>
+    <p class="def-pron-small">[ yoo-zer seg-muhnt ] • /ˈjuːzər ˈsɛɡmənt/</p>
+  </div>
 
-  <details class="def-meta">
-    <summary>Pronunciation</summary>
-    <div class="def-pronunciations">
-      <span class="def-phonetic">[ yoo-zer seg-muhnt ]</span>
-      <span class="def-divider">•</span>
-      <span class="def-ipa">/ˈjuːzər ˈsɛɡmənt/</span>
-    </div>
-  </details>
-
-  <hr class="def-sep">
-
-  <p class="def-title">user segmentation <span class="def-pos-inline">noun</span></p>
-  <p>The practice of organizing users into segments based on shared traits or patterns to guide product design, prioritization, and communication.</p>
-
-  <details class="def-meta">
-    <summary>Pronunciation</summary>
-    <div class="def-pronunciations">
-      <span class="def-phonetic">[ yoo-zer seg-muhn-tay-shuhn ]</span>
-      <span class="def-divider">•</span>
-      <span class="def-ipa">/ˈjuːzər ˌsɛɡmənˈteɪʃən/</span>
-    </div>
-  </details>
+  <div class="def-col">
+    <p class="def-title">User segmentation <span class="def-pos-inline">noun</span></p>
+    <p>The practice of organizing users into segments based on shared traits or patterns to guide product design, prioritization, and communication.</p>
+    <p class="def-pron-small">[ yoo-zer seg-muhn-tay-shuhn ] • /ˈjuːzər ˌsɛɡmənˈteɪʃən/</p>
+  </div>
 </div>
 
 ## Why Segments Matter 
