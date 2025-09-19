@@ -53,13 +53,13 @@ Let's cover the most common, high-leverage dimensions that product teams typica
 
 ## Segment Scoring Framework 
 Evaluate each segment on the following 3 dimensions:
-![Segment Scoring](/assets/images/segment-scoring.jpg){: .img-md }
+![Segment Scoring](/assets/images/segment-scoring.jpg){: .img-sm }
 
 ## Quick-Reference Scoring Table 
 Use this ready-to-fill table during workshops or planning session:
 https://docs.google.com/spreadsheets/d/1EvuxWkeXJDdtvnv-HuwjaLi6QtMQKWMaNdqXC6rutIA/
 It will look something like this:
-![Segment Table](/assets/images/segment-table.png){: .img-md }
+![Segment Table](/assets/images/segment-table.png){: .img-sm }
 Rate each dimension 1–5, then add or multiply to find a total score.   
 Higher scores indicate higher priority for design, research, and feature investment.
 
