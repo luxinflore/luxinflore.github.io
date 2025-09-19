@@ -23,20 +23,29 @@ permalink: /user-segments/
 Score each segment by Reach × Impact × Urgency and focus on the highest total. 
 
 ## Definition
+## Definition
 <div class="definition-card">
-  <div class="def-headword">user segments</div>
+  <div class="def-headword">user segment</div>
   <div class="def-pronunciations">
-    <span class="def-phonetic">[ yoo-zer seg-muhnts ]</span>
+    <span class="def-phonetic">[ yoo-zer seg-muhnt ]</span>
     <span class="def-divider">•</span>
-    <span class="def-ipa">/ˈjuːzər ˈsɛɡmənts/</span>
+    <span class="def-ipa">/ˈjuːzər ˈsɛɡmənt/</span>
   </div>
   <div class="def-pos">noun</div>
   <ol class="def-senses">
-    <li>User segmentation is the process of separating users into distinct groups, or segments, based on shared characteristics.</li>
+    <li><strong>A distinct group of users</strong> who share meaningful characteristics—such as context, behaviors, or needs—so that products, features, or messaging can be tailored to them.</li>
   </ol>
-  <div class="def-source">
-    Source: <a href="https://www.pendo.io/glossary/user-segmentation/" target="_blank" rel="noopener">Pendo Glossary</a>
+
+  <div class="def-headword" style="margin-top:1.2em;">user segmentation</div>
+  <div class="def-pronunciations">
+    <span class="def-phonetic">[ yoo-zer seg-muhn-tay-shuhn ]</span>
+    <span class="def-divider">•</span>
+    <span class="def-ipa">/ˈjuːzər ˌsɛɡmənˈteɪʃən/</span>
   </div>
+  <div class="def-pos">noun</div>
+  <ol class="def-senses">
+    <li>The <strong>practice of identifying and organizing users into segments</strong> based on shared traits or patterns, to guide product design, prioritization, and communication.</li>
+  </ol>
 </div>
 
 ## Why Segments Matter 
