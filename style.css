@@ -434,3 +434,29 @@ a:hover::after {
   background: transparent; border: 0; color: #fff; cursor: pointer;
 }
 
+.section-card {
+  border: 1px solid #e6e6e6;       /* light grey outline */
+  border-left: 4px solid #4CAF50;  /* same green accent for consistency */
+  background: #fafafa;            /* soft background */
+  border-radius: 8px;
+  padding: 1.2rem 1.4rem;
+  margin: 2rem 0;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.04); /* subtle depth */
+}
+.section-card h2 {
+  margin-top: 0; /* prevents double-spacing if a heading starts the section */
+}
+/* --- Optional accents & hover --- */
+.section-card.blue   { border-left: 4px solid #2196F3; } /* ocean blue */
+.section-card.purple { border-left: 4px solid #9C27B0; } /* royal purple */
+.section-card.orange { border-left: 4px solid #FF9800; } /* vibrant orange */
+.section-card.yellow { border-left: 4px solid #FFC107; } /* sunflower yellow */
+.section-card.pink   { border-left: 4px solid #E91E63; } /* hot pink */
+.section-card.teal   { border-left: 4px solid #009688; } /* deep teal */
+.section-card.red { border-left: 4px solid #F44336; } /* vivid red */
+
+
+.section-card:hover {
+  box-shadow: 0 2px 6px rgba(0,0,0,0.06);  /* subtle lift on hover */
+}
+

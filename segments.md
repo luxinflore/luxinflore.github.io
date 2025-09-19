@@ -18,9 +18,12 @@ permalink: /user-segments/
   Pull out this framework whenever you’re deciding <em>which audience to prioritize</em> for a new product or during feature discovery, roadmap planning, or any time you need to compare the value of different user groups.
 </div>
 
+<div class="section-card blue">
 ## TL;DR Outcome
 Score each segment by Reach × Impact × Urgency and focus on the highest total. 
+</div>
 
+<div class="section-card purple">
 ## Definition
 <div class="definition-card">
   <div class="def-entry">
@@ -36,23 +39,31 @@ Score each segment by Reach × Impact × Urgency and focus on the highest total.
     </ol>
   </div>
 </div>
+</div>
 
+<div class="section-card orange">
 ## Why Segments Matter 
 Breaking users into meaningful groups lets you: 
 * Empathize with distinct needs and behaviors. 
 * Discover underserved audiences. 
 * Prioritize roadmap investments based on impact.
+</div>
 
+<div class="section-card yellow">
 ## Segment Categories & Examples
 Let's cover the most common, high-leverage dimensions that product teams typically consider when segmenting users.  Think of them as a starting toolkit, or a menu of proven lenses you can mix and match depending on your product. Treat them as a solid foundation you adapt to your specific product and audience.
 
 ![Segment Definitions](/assets/images/segment-definitions.jpg){: .img-fluid .img-lg .zoomable loading="lazy" }
 ![Segment Examples](/assets/images/segment-examples.jpg){: .img-fluid .img-lg .zoomable loading="lazy" }
+</div>
 
+<div class="section-card pink">
 ## Segment Scoring Framework 
 Evaluate each segment on the following 3 dimensions:
 ![Segment Scoring](/assets/images/segment-scoring.jpg){: .img-fluid .img-lg .zoomable loading="lazy" }
+</div>
 
+<div class="section-card teal">
 ## Quick-Reference Scoring Table 
 Use this ready-to-fill table during workshops or planning session:  
 [Google Sheet: User Segment Scoring Template](https://docs.google.com/spreadsheets/d/1EvuxWkeXJDdtvnv-HuwjaLi6QtMQKWMaNdqXC6rutIA/edit?usp=sharing)
@@ -63,11 +74,14 @@ It will look something like this:
 
 Rate each dimension 1–5, then add or multiply to find a total score.   
 Higher scores indicate higher priority for design, research, and feature investment.
+</div>
 
+<div class="section-card red">
 ## Next Steps 
 1. Brainstorm potential segments (persona workshops, analytics clustering, interviews).   
 2. Fill out the table above.   
 3. Sort by total score and validate top candidates with qualitative research.
+</div>
 
 *Tip:* Revisit your segmentation quarterly or when market conditions change because user segments evolve as your product and users grow.
 
