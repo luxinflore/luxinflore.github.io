@@ -53,7 +53,7 @@ Let's cover the most common, high-leverage dimensions that product teams typica
 
 ## Segment Scoring Framework 
 Evaluate each segment on the following 3 dimensions:
-![Segment Scoring](/assets/images/segment-scoring.jpg){: .img-sm }
+![Segment Scoring](/assets/images/segment-scoring.jpg){: .img-ty }
 
 ## Quick-Reference Scoring Table 
 Use this ready-to-fill table during workshops or planning session:  
