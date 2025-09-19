@@ -393,3 +393,14 @@ a:hover::after {
   margin-bottom: 0.25rem;
 }
 
+/* Responsive images + convenient size caps */
+.img-wrap { margin: 1rem auto; }
+.img-wrap img { display:block; width:100%; max-width:100%; height:auto; }
+
+.img-sm { max-width: 480px; }
+.img-md { max-width: 720px; }
+.img-lg { max-width: 960px; }
+
+.img-grid { display:grid; gap: 12px; grid-template-columns: 1fr; }
+@media (min-width: 720px) { .img-grid { grid-template-columns: 1fr 1fr; } }
+

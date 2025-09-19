@@ -20,9 +20,7 @@ permalink: /user-segments/
 # 🧩 User Segments
 
 **TL;DR Outcome:**  
-Score each segment by Reach × Impact × Urgency and focus on the highest total.
-
-**Deets:**  
+Score each segment by Reach × Impact × Urgency and focus on the highest total. 
 
 ## Definition
 <div class="definition-card">
@@ -50,16 +48,16 @@ Breaking users into meaningful groups lets you: 
 ## Segment Categories & Examples
 Let's cover the most common, high-leverage dimensions that product teams typically consider when segmenting users. Think of them as a starting toolkit, or a menu of proven lenses you can mix and match depending on your product. Treat them as a solid foundation you adapt to your specific product and audience.
 
-![Segment Definitions](/assets/images/segment-definitions.jpg)
-![Segment Examples](/assets/images/segment-examples.jpg)
+![Segment Definitions](/assets/images/segment-definitions.jpg){: .img-md }
+![Segment Examples](/assets/images/segment-examples.jpg){: .img-md }
 
 ## Segment Scoring Framework 
 Evaluate each segment on the following 3 dimensions:
-![Segment Scoring](/assets/images/segment-scoring.jpg)
+![Segment Scoring](/assets/images/segment-scoring.jpg){: .img-md }
 
 ## Quick-Reference Scoring Table 
 Use this ready-to-fill table during workshops or planning session:
-![Segment Table](/assets/images/segment-table.png)
+![Segment Table](/assets/images/segment-table.png){: .img-md }
 Rate each dimension 1–5, then add or multiply to find a total score.   
 Higher scores indicate higher priority for design, research, and feature investment.
 
