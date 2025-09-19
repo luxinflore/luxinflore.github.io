@@ -19,13 +19,12 @@ permalink: /user-segments/
 
 # 🧩 User Segments
 
-TL;DR:
-Identify and score your key audiences so you can focus product decisions where they matter most.
+**TL;DR Outcome:**  
+Score each segment by Reach × Impact × Urgency and focus on the highest total.
 
+**Deets:**  
 
-Let's cover "User Segments" and how they weave into product design!
-First off, let's make sure we quickly define the playing field:
-<!-- Definition: User Segments -->
+## Definition
 <div class="definition-card">
   <div class="def-headword">user segments</div>
   <div class="def-pronunciations">
@@ -42,13 +41,39 @@ First off, let's make sure we quickly define the playing field:
   </div>
 </div>
 
+## Why Segments Matter 
+Breaking users into meaningful groups lets you: 
+* Empathize with distinct needs and behaviors. 
+* Discover underserved audiences. 
+* Prioritize roadmap investments based on impact.
 
-<!-- Product Principles 
-<div class="product-principles">
-  <p><strong>Product Principles</strong></p>
-  <p>⚡ Make it convenient!</p>
-  <p>💅 Make it aesthetic!</p>
-  <p>🔁 Make it gratifying!</p>
-</div>
+## Segment Categories & Examples
+Let's cover the most common, high-leverage dimensions that product teams typically consider when segmenting users. Think of them as a starting toolkit, or a menu of proven lenses you can mix and match depending on your product. Treat them as a solid foundation you adapt to your specific product and audience.
+
+![Segment Definitions](/assets/images/segment-definitions.jpg)
+![Segment Examples](/assets/images/segment-examples.jpg)
+
+## Segment Scoring Framework 
+Evaluate each segment on the following 3 dimensions:
+![Segment Scoring](/assets/images/segment-scoring.jpg)
+
+## Quick-Reference Scoring Table 
+Use this ready-to-fill table during workshops or planning session:
+![Segment Table](/assets/images/segment-table.png)
+Rate each dimension 1–5, then add or multiply to find a total score.   
+Higher scores indicate higher priority for design, research, and feature investment.
+
+## Next Steps 
+1. Brainstorm potential segments (persona workshops, analytics clustering, interviews).   
+2. Fill out the table above.   
+3. Sort by total score and validate top candidates with qualitative research.
+
+*Tip:* Revisit your segmentation quarterly or when market conditions change—segments evolve as your product and users grow.
+
+
+<!--
+For more details, let's cover "User Segments" and how they weave into product design!
+First off, let's make sure we quickly define the playing field:
+
 -->
  
