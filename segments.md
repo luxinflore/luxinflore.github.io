@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 title: User Segments
 permalink: /user-segments/
 ---

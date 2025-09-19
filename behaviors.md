@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 title: User Behaviors 
 permalink: /user-behaviors/
 ---

@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 title: Pain Points
 permalink: /pain-points/
 ---
