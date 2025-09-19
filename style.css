@@ -367,6 +367,11 @@ a:hover::after {
   color: #555;
 }
 
+.definition-card hr.def-sep { border: 0; border-top: 1px solid #eee; margin: .8rem 0; }
+.def-meta summary { cursor: pointer; color: #0066cc; margin: .25rem 0 .35rem; }
+.def-meta[open] summary { color: #000; }
+
+
 /* Inline PDF viewer */
 .pdf-frame {
   width: 100%;

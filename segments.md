@@ -19,33 +19,36 @@ permalink: /user-segments/
 
 # 🧩 User Segments
 
-**TL;DR Outcome:**  
+## TL;DR Outcome:
 Score each segment by Reach × Impact × Urgency and focus on the highest total. 
 
 ## Definition
-## Definition
 <div class="definition-card">
-  <div class="def-headword">user segment</div>
-  <div class="def-pronunciations">
-    <span class="def-phonetic">[ yoo-zer seg-muhnt ]</span>
-    <span class="def-divider">•</span>
-    <span class="def-ipa">/ˈjuːzər ˈsɛɡmənt/</span>
-  </div>
-  <div class="def-pos">noun</div>
-  <ol class="def-senses">
-    <li><strong>A distinct group of users</strong> who share meaningful characteristics—such as context, behaviors, or needs—so that products, features, or messaging can be tailored to them.</li>
-  </ol>
+  <p class="def-title">user segment <span class="def-pos-inline">noun</span></p>
+  <p>A distinct group of users who share meaningful characteristics, like context, behaviors, or needs, so products, features, or messaging can be tailored to them.</p>
 
-  <div class="def-headword" style="margin-top:1.2em;">user segmentation</div>
-  <div class="def-pronunciations">
-    <span class="def-phonetic">[ yoo-zer seg-muhn-tay-shuhn ]</span>
-    <span class="def-divider">•</span>
-    <span class="def-ipa">/ˈjuːzər ˌsɛɡmənˈteɪʃən/</span>
-  </div>
-  <div class="def-pos">noun</div>
-  <ol class="def-senses">
-    <li>The <strong>practice of identifying and organizing users into segments</strong> based on shared traits or patterns, to guide product design, prioritization, and communication.</li>
-  </ol>
+  <details class="def-meta">
+    <summary>Pronunciation</summary>
+    <div class="def-pronunciations">
+      <span class="def-phonetic">[ yoo-zer seg-muhnt ]</span>
+      <span class="def-divider">•</span>
+      <span class="def-ipa">/ˈjuːzər ˈsɛɡmənt/</span>
+    </div>
+  </details>
+
+  <hr class="def-sep">
+
+  <p class="def-title">user segmentation <span class="def-pos-inline">noun</span></p>
+  <p>The practice of organizing users into segments based on shared traits or patterns to guide product design, prioritization, and communication.</p>
+
+  <details class="def-meta">
+    <summary>Pronunciation</summary>
+    <div class="def-pronunciations">
+      <span class="def-phonetic">[ yoo-zer seg-muhn-tay-shuhn ]</span>
+      <span class="def-divider">•</span>
+      <span class="def-ipa">/ˈjuːzər ˌsɛɡmənˈteɪʃən/</span>
+    </div>
+  </details>
 </div>
 
 ## Why Segments Matter 
