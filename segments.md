@@ -71,7 +71,7 @@ Higher scores indicate higher priority for design, research, and feature investm
 2. Fill out the table above.   
 3. Sort by total score and validate top candidates with qualitative research.
 
-*Tip:* Revisit your segmentation quarterly or when market conditions change—segments evolve as your product and users grow.
+*Tip:* Revisit your segmentation quarterly or when market conditions change because user segments evolve as your product and users grow.
 
 
 <!--
