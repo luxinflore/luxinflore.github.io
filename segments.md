@@ -56,8 +56,9 @@ Evaluate each segment on the following 3 dimensions:
 ![Segment Scoring](/assets/images/segment-scoring.jpg){: .img-sm }
 
 ## Quick-Reference Scoring Table 
-Use this ready-to-fill table during workshops or planning session:
-https://docs.google.com/spreadsheets/d/1EvuxWkeXJDdtvnv-HuwjaLi6QtMQKWMaNdqXC6rutIA/
+Use this ready-to-fill table during workshops or planning session:  
+[Google Sheet Template](https://docs.google.com/spreadsheets/d/1EvuxWkeXJDtvnv-HuwjaLi6QtMQKWMaNdqXC6rutIA/)
+
 It will look something like this:
 ![Segment Table](/assets/images/segment-table.png){: .img-sm }
 Rate each dimension 1–5, then add or multiply to find a total score.   
