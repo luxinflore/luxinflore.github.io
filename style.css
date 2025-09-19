@@ -397,7 +397,7 @@ a:hover::after {
 .img-wrap { margin: 1rem auto; }
 .img-wrap img { display:block; width:100%; max-width:100%; height:auto; }
 
-.img-tn { max-width: 340px; }
+.img-tn { max-width: 380px; }
 .img-sm { max-width: 480px; }
 .img-md { max-width: 720px; }
 .img-lg { max-width: 960px; }
