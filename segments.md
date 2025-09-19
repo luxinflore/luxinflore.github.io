@@ -46,7 +46,7 @@ Breaking users into meaningful groups lets you: 
 * Prioritize roadmap investments based on impact.
 
 ## Segment Categories & Examples
-Let's cover the most common, high-leverage dimensions that product teams typically consider when segmenting users. Think of them as a starting toolkit, or a menu of proven lenses you can mix and match depending on your product. Treat them as a solid foundation you adapt to your specific product and audience.
+Let's cover the most common, high-leverage dimensions that product teams typically consider when segmenting users.  Think of them as a starting toolkit, or a menu of proven lenses you can mix and match depending on your product. Treat them as a solid foundation you adapt to your specific product and audience.
 
 ![Segment Definitions](/assets/images/segment-definitions.jpg){: .img-md }
 ![Segment Examples](/assets/images/segment-examples.jpg){: .img-md }
@@ -57,10 +57,12 @@ Evaluate each segment on the following 3 dimensions:
 
 ## Quick-Reference Scoring Table 
 Use this ready-to-fill table during workshops or planning session:  
-[Google Sheet Template: User Segment Scoring Template](https://docs.google.com/spreadsheets/d/1EvuxWkeXJDdtvnv-HuwjaLi6QtMQKWMaNdqXC6rutIA/edit?usp=sharing)
+[Google Sheet: User Segment Scoring Template](https://docs.google.com/spreadsheets/d/1EvuxWkeXJDdtvnv-HuwjaLi6QtMQKWMaNdqXC6rutIA/edit?usp=sharing)
+(This may not properly render on mobile without the Google Sheets app)
 
 It will look something like this:
 ![Segment Table](/assets/images/segment-table.png){: .img-sm }
+
 Rate each dimension 1–5, then add or multiply to find a total score.   
 Higher scores indicate higher priority for design, research, and feature investment.
 
