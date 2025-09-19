@@ -367,18 +367,15 @@ a:hover::after {
   color: #555;
 }
 
-/* two-column defs on desktop, stack on mobile */
-.defs-grid { display: grid; gap: 16px; }
-@media (min-width: 720px) { .defs-grid { grid-template-columns: 1fr 1fr; } }
+/* group entries + a clean divider */
+.def-entry + .def-entry { margin-top: .6rem; }
+.def-rule { border: 0; border-top: 1px solid #e8e8e8; margin: .8rem 0 1rem; }
 
-.def-col { display: grid; gap: .35rem; }
-.def-title { font-weight: 700; margin: 0; }
-.def-pos-inline { font-weight: 600; color: #666; font-size: .95em; margin-left: .25rem; }
-.def-pron-small { color: #666; font-size: .9em; margin: 0; }
-
-/* optional: a touch more polish */
-.definition-card.defs-grid { padding: 1rem 1.2rem; }
-
+/* slight mobile sizing so it doesn't feel cramped */
+@media (max-width: 480px) {
+  .def-headword { font-size: 1.45em; }
+  .def-pronunciations { font-size: .92em; }
+}
 
 /* Inline PDF viewer */
 .pdf-frame {
