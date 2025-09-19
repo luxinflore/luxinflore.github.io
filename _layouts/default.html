@@ -35,6 +35,26 @@
 </script>
 
 
+<div id="img-lightbox" aria-hidden="true">
+  <button aria-label="Close">×</button>
+  <img alt="">
+</div>
+<script>
+  // open on any .zoomable image
+  const lb = document.getElementById('img-lightbox');
+  const lbImg = lb.querySelector('img');
+  const close = () => lb.classList.remove('open');
+  lb.addEventListener('click', e => (e.target === lb || e.target.tagName==='BUTTON') && close());
+  document.addEventListener('keydown', e => e.key === 'Escape' && close());
+  document.addEventListener('click', e => {
+    const img = e.target.closest('img.zoomable');
+    if (!img) return;
+    lbImg.src = img.currentSrc || img.src;
+    lbImg.alt = img.alt || '';
+    lb.classList.add('open');
+  });
+</script>
+
 </body>
 </html>
 
