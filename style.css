@@ -348,6 +348,7 @@ a:hover::after {
 .def-senses {
   margin: 0.3em 0 0.6em 1.2em; /* nice indent for numbers */
   padding: 0;
+  list-style-type: none;   /* 🔑 hides the number */
 }
 
 .def-senses li {

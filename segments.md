@@ -35,21 +35,6 @@ Score each segment by Reach × Impact × Urgency and focus on the highest total.
       <li><strong>A distinct group of users</strong> who share meaningful characteristics such as context, behaviors, or needs so products, features, or messaging can be tailored to them.</li>
     </ol>
   </div>
-
-  <hr class="def-rule" />
-
-  <div class="def-entry">
-    <div class="def-headword">user segmentation</div>
-    <div class="def-pronunciations">
-      <span class="def-phonetic">[ yoo-zer seg-muhn-tay-shuhn ]</span>
-      <span class="def-divider">•</span>
-      <span class="def-ipa">/ˈjuːzər ˌsɛɡmənˈteɪʃən/</span>
-    </div>
-    <div class="def-pos">noun</div>
-    <ol class="def-senses">
-      <li>The <strong>practice of identifying and organizing users into segments</strong> based on shared traits or patterns to guide product design, prioritization, and communication.</li>
-    </ol>
-  </div>
 </div>
 
 ## Why Segments Matter 
