@@ -57,7 +57,7 @@ Evaluate each segment on the following 3 dimensions:
 
 ## Quick-Reference Scoring Table 
 Use this ready-to-fill table during workshops or planning session:  
-[Google Sheet Template](https://docs.google.com/spreadsheets/d/1EvuxWkeXJDdtvnv-HuwjaLi6QtMQKWMaNdqXC6rutIA/edit?usp=sharing)
+[Google Sheet Template: User Segment Scoring Template](https://docs.google.com/spreadsheets/d/1EvuxWkeXJDdtvnv-HuwjaLi6QtMQKWMaNdqXC6rutIA/edit?usp=sharing)
 
 It will look something like this:
 ![Segment Table](/assets/images/segment-table.png){: .img-sm }
