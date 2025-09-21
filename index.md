@@ -7,9 +7,15 @@ title: Home
   <img src="/assets/images/profile.png" alt="Profile Pic" width="200" />
 </div>
 
-**Hi, I'm Aya!**  
-
-_I'm a product thinker and creative who cares about how people and animals live, feel, and make decisions. I build across software and hardware with a deep commitment to empathizing with users so that I can develop products that are beautiful, effortless, and enjoyable._
+<div class="intro-text">
+  <h1>Hi, I'm Aya!</h1>
+  <p>
+    I'm a product thinker and creative who cares about how people and animals live,
+    feel, and make decisions. I build across software and hardware with a deep commitment
+    to empathizing with users so that I can develop products that are beautiful,
+    effortless, and enjoyable.
+  </p>
+</div>
 
 <div class="center-content">
   <img src="/assets/images/personality.png" alt="Personality: DISC Di Driver, Enneagram 8, INFJ" style="max-width: 400px;" />
