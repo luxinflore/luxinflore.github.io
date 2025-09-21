@@ -575,3 +575,36 @@ a:hover::after {
   max-width: 60ch;  /* keeps line length like the badge */
 }
 
+/* ---------------------------
+   Smaller / softer grey lines
+   --------------------------- */
+.wg-list2 li {
+  margin: 10px 0 12px;         /* a touch tighter between bullets */
+}
+
+.wg-title {
+  font-weight: 700;
+  font-size: 1rem;             /* headline stays clean + readable */
+  line-height: 1.25;
+}
+
+.wg-desc {
+  display: block;
+  color: rgba(0,0,0,0.56);      /* lighter grey */
+  font-size: clamp(0.82rem, 0.9vw + 0.68rem, 0.88rem); /* smaller + responsive */
+  line-height: 1.38;           /* a bit tighter so blocks look crisper */
+  margin-top: 2px;             /* tiny gap under the bold line */
+  letter-spacing: 0.1px;       /* subtle polish */
+}
+
+/* Card & list polish (optional) */
+.wg-card { padding: 14px 16px; }
+.wg-list2 li { max-width: 60ch; }  /* slightly narrower for easier scanning */
+
+/* Mobile tweaks */
+@media (max-width: 480px) {
+  .wg-card { padding: 12px 14px; }
+  .wg-desc { font-size: 0.84rem; } /* keep secondary text clearly smaller */
+  .wg-list2 li { max-width: 58ch; }
+}
+
