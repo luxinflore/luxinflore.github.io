@@ -608,3 +608,35 @@ a:hover::after {
   .wg-list2 li { max-width: 58ch; }
 }
 
+/* Intro block – tune to match the badge tone */
+.intro-text {
+  text-align: center;
+  max-width: 620px;     /* similar width to the badge row */
+  margin: 18px auto 14px;
+}
+
+.intro-text h1 {
+  font-weight: 700;
+  color: #1f1f1f;
+  letter-spacing: .2px;
+  /* smaller + responsive so it doesn’t overpower the badge */
+  font-size: clamp(1.1rem, 1.1vw + 1rem, 1.4rem);
+  margin: 0 0 6px;
+}
+
+.intro-text p {
+  font-style: italic;
+  /* softer, clearly secondary to the H1 and the badge */
+  color: rgba(0,0,0,.65);
+  font-size: clamp(.9rem, .6vw + .8rem, 1.02rem);
+  line-height: 1.45;
+  max-width: 60ch;
+  margin: 0 auto 8px;
+}
+
+/* Optional: align spacing around the badge image for harmony */
+.center-content img[alt*="Personality"] {
+  margin-top: 10px;      /* nudge closer to the intro */
+  max-width: 380px;      /* keeps it compact like the pill */
+}
+
