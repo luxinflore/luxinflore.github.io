@@ -460,3 +460,50 @@ a:hover::after {
   box-shadow: 0 2px 6px rgba(0,0,0,0.06);  /* subtle lift on hover */
 }
 
+/* Layout */
+.wg-sections {
+  display: grid;
+  gap: 16px;
+  margin: 22px 0 30px;
+  grid-template-columns: 1fr;
+}
+@media (min-width: 860px) {
+  .wg-sections { grid-template-columns: 1fr 1fr; }
+}
+
+/* Card */
+.wg-card {
+  background: #fff;
+  border: 1px solid rgba(0,0,0,0.06);
+  border-radius: 14px;
+  padding: 16px 18px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+}
+.wg-card h3 {
+  margin: 2px 0 10px;
+  font-size: 1.05rem;
+  letter-spacing: 0.2px;
+}
+
+/* List readability */
+.wg-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.wg-list li {
+  margin: 10px 0;
+  line-height: 1.35;
+  /* limit line length so long bullets don't feel bulky */
+  max-width: 62ch;
+}
+.wg-list li::marker { content: ""; } /* hide default marker */
+.wg-list li::before {
+  content: "•";
+  margin-right: 8px;
+  opacity: 0.45;
+}
+
+/* Emphasis */
+.wg-list strong { font-weight: 600; }
+
