@@ -536,12 +536,15 @@ a:hover::after { opacity: 1; }
 .wg-card.compact .wg-list2 li{ margin: 8px 0 10px; }
 .wg-card.compact .wg-desc{ font-size: .86rem; }
 
-/* Sharper hierarchy for section headings without extra spacing */
+/* Section headings: clearer hierarchy above bullet titles */
 .wg-card h3 {
-  font-size: 1.2rem;     /* a clean bump over bullet titles */
-  font-weight: 700;      /* stronger weight for contrast */
-  margin-bottom: 8px;    /* tighter gap under the heading */
-  letter-spacing: 0.2px; /* subtle polish */
+  font-size: 1.3rem;     /* larger than bullet titles */
+  font-weight: 700;
+  line-height: 1.25;
+  margin: 0 0 8px;       /* tighter, cleaner spacing */
+  color: #111;           /* slightly darker for contrast */
+  letter-spacing: 0.3px; /* subtle polish */
 }
+
 
 
