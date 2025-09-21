@@ -14,7 +14,17 @@
   <meta property="og:type" content="website" />
   <meta property="og:image" content="https://ayagare.com/assets/images/profile.png" />
 
-  <link rel="stylesheet" href="{{ '/style.css' | relative_url }}" />
+  <!-- Add canonical link for SEO to signal the preferred URL -->
+  <link rel="canonical" href="https://ayagare.com/" />
+
+  <!-- Set site favicon for browser tabs and bookmarks -->
+  <link rel="icon" href="{{ '/assets/images/profile.png' | relative_url }}" />
+
+  <!-- Link to main stylesheet with cache-buster to force fresh CSS -->
+  <link rel="stylesheet" href="{{ '/style.css?v=4' | relative_url }}" />
+
+  <!-- Load custom script without blocking page rendering -->
+  <script src="{{ '/script.js' | relative_url }}" defer></script>
 </head>
 <body>
   <div class="container">
