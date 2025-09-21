@@ -507,3 +507,50 @@ a:hover::after {
 /* Emphasis */
 .wg-list strong { font-weight: 600; }
 
+/* layout (same as before, keeps two columns on desktop) */
+.wg-sections {
+  display: grid;
+  gap: 16px;
+  margin: 22px 0 30px;
+  grid-template-columns: 1fr;
+}
+@media (min-width: 860px) { .wg-sections { grid-template-columns: 1fr 1fr; } }
+
+.wg-card {
+  background: #fff;
+  border: 1px solid rgba(0,0,0,0.06);
+  border-radius: 14px;
+  padding: 16px 18px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+}
+.wg-card h3 { margin: 2px 0 10px; font-size: 1.06rem; }
+
+/* two-line bullets */
+.wg-list2 { list-style: none; padding: 0; margin: 0; }
+.wg-list2 li {
+  position: relative;
+  margin: 12px 0;
+  padding-left: 18px;             /* room for the dot */
+  max-width: 62ch;                /* keeps lines from running too long */
+}
+.wg-list2 li::before {
+  content: "•";
+  position: absolute;
+  left: 0;
+  top: 0.3em;
+  color: rgba(0,0,0,0.45);
+}
+
+.wg-title {
+  display: block;
+  font-weight: 700;
+  line-height: 1.25;
+}
+.wg-desc {
+  display: block;
+  margin-top: 2px;
+  color: rgba(0,0,0,0.65);         /* softer gray */
+  font-size: 0.95rem;              /* smaller secondary line */
+  line-height: 1.35;
+}
+
