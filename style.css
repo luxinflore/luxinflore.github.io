@@ -1,4 +1,6 @@
-/* Base styling */
+/* -----------------------------
+   Base styling
+------------------------------ */
 body {
   font-family: system-ui, sans-serif;
   font-size: 14px;
@@ -8,7 +10,11 @@ body {
   color: #000;
 }
 
-/* Layout container */
+p { margin-bottom: 1em; }
+
+/* -----------------------------
+   Layout container
+------------------------------ */
 .container {
   display: flex;
   max-width: 1200px;
@@ -24,9 +30,7 @@ body {
 
 /* Sidebar nav vertically aligned */
 /* Default: hidden on mobile */
-.sidebar nav {
-  display: none;
-}
+.sidebar nav { display: none; }
 
 /* Desktop sidebar layout */
 @media screen and (min-width: 769px) {
@@ -49,63 +53,49 @@ body {
   line-height: 1.6;
 }
 
-p {
-  margin-bottom: 1em;
+@media screen and (max-width: 768px) {
+  .container { flex-direction: column; padding: 0 16px; }
+  .sidebar { margin-right: 0; margin-bottom: 20px; }
+  .main { max-width: 100%; }
+  img.profile-pic { width: 120px; display: block; margin: 0 auto 1em auto; }
 }
 
-/* Link styling */
+/* -----------------------------
+   Link styling (rainbow underline + sparkle hover)
+------------------------------ */
 a {
   color: #0066cc;
   text-decoration: none;
   position: relative;
   display: inline-block;
-  transition:
-    color 0.3s ease,
-    text-shadow 0.3s ease;
+  transition: color 0.3s ease, text-shadow 0.3s ease;
 }
 
-/* Rainbow underline effect */
 a::after {
   content: "";
   position: absolute;
-  left: 0;
-  right: 0;
-  bottom: -2px;
+  left: 0; right: 0; bottom: -2px;
   height: 2px;
-  background: linear-gradient(
-    90deg,
-    red,
-    orange,
-    yellow,
-    green,
-    blue,
-    indigo,
-    violet
-  );
+  background: linear-gradient(90deg, red, orange, yellow, green, blue, indigo, violet);
   opacity: 0;
   transition: opacity 0.3s ease;
   pointer-events: none;
 }
 
-/* Hover sparkle effect */
 a:hover {
   color: black;
-  text-shadow:
-    0 0 8px gold,
-    0 0 12px #ff69b4;
+  text-shadow: 0 0 8px gold, 0 0 12px #ff69b4;
 }
 
-a:hover::after {
-  opacity: 1;
-}
+a:hover::after { opacity: 1; }
 
-/* Cat animation element */
+/* -----------------------------
+   Cat animations + sparkles
+------------------------------ */
 .cat-jump {
   position: absolute;
-  top: 0;
-  left: 0;
-  width: 80px;
-  height: auto;
+  top: 0; left: 0;
+  width: 80px; height: auto;
   opacity: 1 !important;
   z-index: 9999;
   pointer-events: none;
@@ -113,24 +103,14 @@ a:hover::after {
 }
 
 @keyframes jump-cat {
-  0% {
-    transform: translateX(0) translateY(0);
-    opacity: 1;
-  }
-  50% {
-    transform: translateX(50px) translateY(-40px);
-    opacity: 1;
-  }
-  100% {
-    transform: translateX(100px) translateY(0);
-    opacity: 1;
-  }
+  0% { transform: translateX(0) translateY(0); opacity: 1; }
+  50% { transform: translateX(50px) translateY(-40px); opacity: 1; }
+  100% { transform: translateX(100px) translateY(0); opacity: 1; }
 }
 
 .cat-run {
   position: absolute;
-  width: 50px;
-  height: auto;
+  width: 50px; height: auto;
   opacity: 1 !important;
   z-index: 9999;
   pointer-events: none;
@@ -138,21 +118,13 @@ a:hover::after {
 }
 
 @keyframes run-cat {
-  0% {
-    transform: translateX(0);
-    opacity: 1;
-  }
-  100% {
-    transform: translateX(100px);
-    opacity: 1;
-  }
+  0% { transform: translateX(0); opacity: 1; }
+  100% { transform: translateX(100px); opacity: 1; }
 }
 
-/* Sparkle styling */
 .sparkle {
   position: absolute;
-  width: 8px;
-  height: 8px;
+  width: 8px; height: 8px;
   background: radial-gradient(circle, gold 0%, transparent 70%);
   border-radius: 50%;
   opacity: 0.8;
@@ -161,39 +133,13 @@ a:hover::after {
 }
 
 @keyframes sparkle-fade {
-  from {
-    transform: scale(1);
-    opacity: 0.8;
-  }
-  to {
-    transform: scale(0.2);
-    opacity: 0;
-  }
+  from { transform: scale(1); opacity: 0.8; }
+  to   { transform: scale(0.2); opacity: 0; }
 }
 
-@media screen and (max-width: 768px) {
-  .container {
-    flex-direction: column;
-    padding: 0 16px;
-  }
-
-  .sidebar {
-    margin-right: 0;
-    margin-bottom: 20px;
-  }
-
-  .main {
-    max-width: 100%;
-  }
-
-  img.profile-pic {
-    width: 120px;
-    display: block;
-    margin: 0 auto 1em auto;
-  }
-}
-
-/* Sidebar section spacing and emoji cleanup */
+/* -----------------------------
+   Sidebar/nav helpers
+------------------------------ */
 .sidebar nav h3 {
   margin-top: 2em;
   margin-bottom: 0.5em;
@@ -202,15 +148,8 @@ a:hover::after {
   letter-spacing: 0.2px;
 }
 
-.nav-sublist {
-  list-style: none;
-  padding-left: 1em;
-  margin: 0;
-}
-
-.nav-sublist li {
-  margin: 0.4em 0;
-}
+.nav-sublist { list-style: none; padding-left: 1em; margin: 0; }
+.nav-sublist li { margin: 0.4em 0; }
 
 .cat-hover-link {
   display: inline-flex;
@@ -223,73 +162,171 @@ a:hover::after {
 .nav-toggle {
   display: none;
   font-size: 1.8em;
-  background: none;
-  border: none;
+  background: none; border: none;
   cursor: pointer;
   padding: 0.3em;
 }
 
 /* Mobile nav */
 @media screen and (max-width: 768px) {
-  .sidebar {
-    margin-bottom: 20px;
-  }
-
-  .nav-toggle {
-    display: inline-block;
-    margin-bottom: 1em;
-  }
-
-  nav#nav-menu {
-    display: none;
-    flex-direction: column;
-    gap: 12px;
-  }
-
-  nav#nav-menu.show {
-    display: flex;
-  }
+  .sidebar { margin-bottom: 20px; }
+  .nav-toggle { display: inline-block; margin-bottom: 1em; }
+  nav#nav-menu { display: none; flex-direction: column; gap: 12px; }
+  nav#nav-menu.show { display: flex; }
 }
 
-.center-content {
-  text-align: center;
-}
-
+/* -----------------------------
+   Center content helper
+------------------------------ */
+.center-content { text-align: center; }
 .center-content img {
   display: block;
   margin: 1.5em auto;
   max-width: 100%;
 }
 
+/* -----------------------------
+   Intro block (matches badge tone)
+------------------------------ */
+.intro-text {
+  text-align: center;
+  max-width: 620px;              /* harmonizes with badge width */
+  margin: 18px auto 14px;
+}
+.intro-text h1 {
+  font-weight: 700;
+  color: #1f1f1f;
+  letter-spacing: .2px;
+  font-size: clamp(1.1rem, 1.1vw + 1rem, 1.4rem); /* smaller, responsive */
+  margin: 0 0 6px;
+}
+.intro-text p {
+  font-style: italic;
+  color: rgba(0,0,0,.65);        /* softer grey, subordinate to h1 */
+  font-size: clamp(.9rem, .6vw + .8rem, 1.02rem);
+  line-height: 1.45;
+  max-width: 60ch;
+  margin: 0 auto 8px;
+}
+/* Personality badge image spacing */
+.center-content img[alt*="Personality"] {
+  margin-top: 10px;
+  max-width: 380px;
+}
+
+/* -----------------------------
+   Two-column cards for lists
+------------------------------ */
+.wg-sections {
+  display: grid;
+  gap: 16px;
+  margin: 22px 0 30px;
+  grid-template-columns: 1fr;
+}
+@media (min-width: 860px) {
+  .wg-sections { grid-template-columns: 1fr 1fr; }
+}
+
+.wg-card {
+  background: #fff;
+  border: 1px solid rgba(0,0,0,0.06);
+  border-radius: 14px;
+  padding: 14px 16px;            /* compact padding so blocks feel light */
+  box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+}
+.wg-card h3 {
+  margin: 2px 0 10px;
+  font-size: 1.06rem;
+  letter-spacing: 0.2px;
+}
+
+/* -----------------------------
+   Two-line bullets (headline + softer body)
+------------------------------ */
+.wg-list2 { list-style: none; padding: 0; margin: 0; }
+
+.wg-list2 li {
+  position: relative;
+  margin: 10px 0 12px;
+  padding-left: 18px;            /* space for dot */
+  max-width: 60ch;               /* keeps lines short and airy */
+}
+
+.wg-list2 li::before {
+  content: "•";
+  position: absolute;
+  left: 0;
+  top: 0.3em;
+  color: rgba(0,0,0,0.45);
+}
+
+.wg-title {
+  display: block;
+  font-weight: 700;
+  font-size: 1rem;               /* headline size */
+  line-height: 1.25;
+}
+
+.wg-desc {
+  display: block;
+  margin-top: 2px;
+  color: rgba(0,0,0,0.56);       /* lighter grey for secondary line */
+  font-size: clamp(0.8rem, 0.85vw + 0.66rem, 0.86rem); /* smaller, responsive */
+  line-height: 1.38;
+  letter-spacing: 0.1px;
+}
+
+@media (max-width: 480px) {
+  .wg-card { padding: 12px 14px; }
+  .wg-desc { font-size: 0.84rem; }
+  .wg-list2 li { max-width: 58ch; }
+}
+
+/* (Kept for compatibility even if not used now) */
+.wg-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.wg-list li {
+  margin: 10px 0;
+  line-height: 1.35;
+  max-width: 62ch;
+}
+.wg-list li::marker { content: ""; }
+.wg-list li::before {
+  content: "•";
+  margin-right: 8px;
+  opacity: 0.45;
+}
+.wg-list strong { font-weight: 600; }
+
+/* -----------------------------
+   Other content blocks
+------------------------------ */
 .industry-experience {
   text-align: center;
-  font-size: 0.9em;       /* slightly smaller */
+  font-size: 0.9em;
   line-height: 1.5;
-  margin: 2em auto;       /* centers the block with space around */
-  max-width: 500px;       /* prevents text from stretching too wide */
-  background: #f9f9f9;    /* optional light background */
-  padding: 1em 1.5em;
-  border-radius: 8px;     /* rounded corners */
-}
-
-.industry-experience p {
-  margin: 0.4em 0;
-}
-
-.approach-heading {
-  text-align: center;
-  font-size: 0.95em;      /* slightly smaller than main body */
-  line-height: 1.4;
   margin: 2em auto;
   max-width: 500px;
-  background: #f9f9f9;    /* subtle background */
+  background: #f9f9f9;
   padding: 1em 1.5em;
   border-radius: 8px;
 }
+.industry-experience p { margin: 0.4em 0; }
 
-.approach-heading p {
-  margin: 0.4em 0;
+.approach-heading {
+  text-align: center;
+  font-size: 0.95em;
+  line-height: 1.4;
+  margin: 2em auto;
+  max-width: 500px;
+  background: #f9f9f9;
+  padding: 1em 1.5em;
+  border-radius: 8px;
 }
+.approach-heading p { margin: 0.4em 0; }
 
 .product-principles {
   text-align: center;
@@ -297,16 +334,14 @@ a:hover::after {
   line-height: 1.5;
   margin: 2em auto;
   max-width: 550px;
-  background: #f2f2f2;    /* light background */
+  background: #f2f2f2;
   padding: 1.2em 1.5em;
   border-radius: 10px;
   font-weight: 500;
 }
+.product-principles p { margin: 0.4em 0; }
 
-.product-principles p {
-  margin: 0.4em 0;
-}
-
+/* Definition card styles */
 .definition-card {
   max-width: 700px;
   margin: 2em 0;
@@ -315,28 +350,19 @@ a:hover::after {
   border-radius: 10px;
   background: #fafafa;
 }
-
 .def-headword {
   font-size: 1.6em;
   font-weight: 700;
   letter-spacing: 0.2px;
   margin-bottom: 0.1em;
 }
-
 .def-pronunciations {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.6em;
-  align-items: center;
-  font-size: 0.95em;
-  color: #444;
-  margin-bottom: 0.3em;
+  display: flex; flex-wrap: wrap; gap: 0.6em; align-items: center;
+  font-size: 0.95em; color: #444; margin-bottom: 0.3em;
 }
-
 .def-phonetic { font-style: italic; }
 .def-divider { opacity: 0.5; }
 .def-ipa { font-family: ui-monospace, SFMono-Regular, Menlo, monospace; }
-
 .def-pos {
   text-transform: lowercase;
   font-weight: 600;
@@ -344,54 +370,41 @@ a:hover::after {
   color: #666;
   margin: 0.3em 0 0.6em;
 }
-
 .def-senses {
-  margin: 0.3em 0 0.6em 1.2em; /* nice indent for numbers */
-  padding: 0;
-  list-style-type: none;   /* 🔑 hides the number */
+  margin: 0.3em 0 0.6em 1.2em;
+  padding: 0; list-style-type: none;
 }
-
-.def-senses li {
-  margin: 0.4em 0;
-  line-height: 1.5;
-}
-
-.def-example {
-  margin-top: 0.6em;
-  font-style: italic;
-  color: #555;
-}
-
-.def-source {
-  margin-top: 0.6em;
-  font-size: 0.9em;
-  color: #555;
-}
+.def-senses li { margin: 0.4em 0; line-height: 1.5; }
+.def-example { margin-top: 0.6em; font-style: italic; color: #555; }
+.def-source { margin-top: 0.6em; font-size: 0.9em; color: #555; }
 
 /* group entries + a clean divider */
 .def-entry + .def-entry { margin-top: .6rem; }
 .def-rule { border: 0; border-top: 1px solid #e8e8e8; margin: .8rem 0 1rem; }
 
-/* slight mobile sizing so it doesn't feel cramped */
+/* slight mobile sizing */
 @media (max-width: 480px) {
   .def-headword { font-size: 1.45em; }
   .def-pronunciations { font-size: .92em; }
 }
 
-/* Inline PDF viewer */
+/* -----------------------------
+   Inline PDF viewer
+------------------------------ */
 .pdf-frame {
   width: 100%;
-  height: 80vh;   /* responsive: 80% of the viewport height */
+  height: 80vh;
   border: none;
 }
-
-/* Optional: hide inline viewer on small screens, show only the link */
 @media (max-width: 768px) {
   .pdf-desktop { display: none; }
 }
 
+/* -----------------------------
+   Tip/usage card
+------------------------------ */
 .card-usage {
-  border-left: 4px solid #4CAF50; /* green accent */
+  border-left: 4px solid #4CAF50;
   background: #f6f8fa;
   padding: 0.75rem 1rem;
   margin: 1rem 0;
@@ -404,25 +417,25 @@ a:hover::after {
   margin-bottom: 0.25rem;
 }
 
-/* Responsive images + convenient size caps */
+/* -----------------------------
+   Responsive images + size caps
+------------------------------ */
 .img-wrap { margin: 1rem auto; }
 .img-wrap img { display:block; width:100%; max-width:100%; height:auto; }
 
 .img-tn { max-width: 380px; }
 .img-sm { max-width: 480px; }
 .img-md { max-width: 720px; }
-.img-lg { max-width: 960px; }
+.img-lg { max-width: 1100px; margin: 0 auto; } /* keep the larger cap */
 
 .img-grid { display:grid; gap: 12px; grid-template-columns: 1fr; }
 @media (min-width: 720px) { .img-grid { grid-template-columns: 1fr 1fr; } }
 
-/* Fluid images: never overflow the column */
 .img-fluid { display:block; width:100%; height:auto; }
 
-/* Optional: nice max width for wide desktops (keep diagrams readable) */
-.img-lg   { max-width: 1100px; margin: 0 auto; }
-
-/* Lightbox */
+/* -----------------------------
+   Lightbox
+------------------------------ */
 #img-lightbox {
   position: fixed; inset: 0; display: none; place-items: center;
   background: rgba(0,0,0,.7); z-index: 1000; padding: 2vmin;
@@ -434,209 +447,27 @@ a:hover::after {
   background: transparent; border: 0; color: #fff; cursor: pointer;
 }
 
+/* -----------------------------
+   Section cards (colored accents)
+------------------------------ */
 .section-card {
-  border: 1px solid #e6e6e6;       /* light grey outline */
-  border-left: 4px solid #4CAF50;  /* same green accent for consistency */
-  background: #fafafa;            /* soft background */
+  border: 1px solid #e6e6e6;
+  border-left: 4px solid #4CAF50;
+  background: #fafafa;
   border-radius: 8px;
   padding: 1.2rem 1.4rem;
   margin: 2rem 0;
-  box-shadow: 0 1px 3px rgba(0,0,0,0.04); /* subtle depth */
+  box-shadow: 0 1px 3px rgba(0,0,0,0.04);
 }
-.section-card h2 {
-  margin-top: 0; /* prevents double-spacing if a heading starts the section */
-}
-/* --- Optional accents & hover --- */
-.section-card.blue   { border-left: 4px solid #2196F3; } /* ocean blue */
-.section-card.purple { border-left: 4px solid #9C27B0; } /* royal purple */
-.section-card.orange { border-left: 4px solid #FF9800; } /* vibrant orange */
-.section-card.yellow { border-left: 4px solid #FFC107; } /* sunflower yellow */
-.section-card.pink   { border-left: 4px solid #E91E63; } /* hot pink */
-.section-card.teal   { border-left: 4px solid #009688; } /* deep teal */
-.section-card.red { border-left: 4px solid #F44336; } /* vivid red */
+.section-card h2 { margin-top: 0; }
 
+.section-card.blue   { border-left: 4px solid #2196F3; }
+.section-card.purple { border-left: 4px solid #9C27B0; }
+.section-card.orange { border-left: 4px solid #FF9800; }
+.section-card.yellow { border-left: 4px solid #FFC107; }
+.section-card.pink   { border-left: 4px solid #E91E63; }
+.section-card.teal   { border-left: 4px solid #009688; }
+.section-card.red    { border-left: 4px solid #F44336; }
 
-.section-card:hover {
-  box-shadow: 0 2px 6px rgba(0,0,0,0.06);  /* subtle lift on hover */
-}
-
-/* Layout */
-.wg-sections {
-  display: grid;
-  gap: 16px;
-  margin: 22px 0 30px;
-  grid-template-columns: 1fr;
-}
-@media (min-width: 860px) {
-  .wg-sections { grid-template-columns: 1fr 1fr; }
-}
-
-/* Card */
-.wg-card {
-  background: #fff;
-  border: 1px solid rgba(0,0,0,0.06);
-  border-radius: 14px;
-  padding: 16px 18px;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.04);
-}
-.wg-card h3 {
-  margin: 2px 0 10px;
-  font-size: 1.05rem;
-  letter-spacing: 0.2px;
-}
-
-/* List readability */
-.wg-list {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-.wg-list li {
-  margin: 10px 0;
-  line-height: 1.35;
-  /* limit line length so long bullets don't feel bulky */
-  max-width: 62ch;
-}
-.wg-list li::marker { content: ""; } /* hide default marker */
-.wg-list li::before {
-  content: "•";
-  margin-right: 8px;
-  opacity: 0.45;
-}
-
-/* Emphasis */
-.wg-list strong { font-weight: 600; }
-
-/* layout (same as before, keeps two columns on desktop) */
-.wg-sections {
-  display: grid;
-  gap: 16px;
-  margin: 22px 0 30px;
-  grid-template-columns: 1fr;
-}
-@media (min-width: 860px) { .wg-sections { grid-template-columns: 1fr 1fr; } }
-
-.wg-card {
-  background: #fff;
-  border: 1px solid rgba(0,0,0,0.06);
-  border-radius: 14px;
-  padding: 16px 18px;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.04);
-}
-.wg-card h3 { margin: 2px 0 10px; font-size: 1.06rem; }
-
-/* two-line bullets */
-.wg-list2 { list-style: none; padding: 0; margin: 0; }
-.wg-list2 li {
-  position: relative;
-  margin: 12px 0;
-  padding-left: 18px;             /* room for the dot */
-  max-width: 62ch;                /* keeps lines from running too long */
-}
-.wg-list2 li::before {
-  content: "•";
-  position: absolute;
-  left: 0;
-  top: 0.3em;
-  color: rgba(0,0,0,0.45);
-}
-
-.wg-title {
-  display: block;
-  font-weight: 700;
-  line-height: 1.25;
-}
-.wg-desc {
-  display: block;
-  margin-top: 2px;
-  color: rgba(0,0,0,0.65);         /* softer gray */
-  font-size: 0.95rem;              /* smaller secondary line */
-  line-height: 1.35;
-}
-
-.intro-text {
-  text-align: center;
-  max-width: 600px;
-  margin: 20px auto;
-}
-
-.intro-text h1 {
-  font-size: 1.6rem;
-  margin-bottom: 8px;
-  color: #1a1a1a;
-  letter-spacing: 0.2px;
-}
-
-.intro-text p {
-  font-style: italic;
-  color: rgba(0,0,0,0.75);
-  line-height: 1.55;
-  margin: 0 auto;
-  max-width: 60ch;  /* keeps line length like the badge */
-}
-
-/* ---------------------------
-   Smaller / softer grey lines
-   --------------------------- */
-.wg-list2 li {
-  margin: 10px 0 12px;         /* a touch tighter between bullets */
-}
-
-.wg-title {
-  font-weight: 700;
-  font-size: 1rem;             /* headline stays clean + readable */
-  line-height: 1.25;
-}
-
-.wg-desc {
-  display: block;
-  color: rgba(0,0,0,0.56);      /* lighter grey */
-  font-size: clamp(0.82rem, 0.9vw + 0.68rem, 0.88rem); /* smaller + responsive */
-  line-height: 1.38;           /* a bit tighter so blocks look crisper */
-  margin-top: 2px;             /* tiny gap under the bold line */
-  letter-spacing: 0.1px;       /* subtle polish */
-}
-
-/* Card & list polish (optional) */
-.wg-card { padding: 14px 16px; }
-.wg-list2 li { max-width: 60ch; }  /* slightly narrower for easier scanning */
-
-/* Mobile tweaks */
-@media (max-width: 480px) {
-  .wg-card { padding: 12px 14px; }
-  .wg-desc { font-size: 0.84rem; } /* keep secondary text clearly smaller */
-  .wg-list2 li { max-width: 58ch; }
-}
-
-/* Intro block – tune to match the badge tone */
-.intro-text {
-  text-align: center;
-  max-width: 620px;     /* similar width to the badge row */
-  margin: 18px auto 14px;
-}
-
-.intro-text h1 {
-  font-weight: 700;
-  color: #1f1f1f;
-  letter-spacing: .2px;
-  /* smaller + responsive so it doesn’t overpower the badge */
-  font-size: clamp(1.1rem, 1.1vw + 1rem, 1.4rem);
-  margin: 0 0 6px;
-}
-
-.intro-text p {
-  font-style: italic;
-  /* softer, clearly secondary to the H1 and the badge */
-  color: rgba(0,0,0,.65);
-  font-size: clamp(.9rem, .6vw + .8rem, 1.02rem);
-  line-height: 1.45;
-  max-width: 60ch;
-  margin: 0 auto 8px;
-}
-
-/* Optional: align spacing around the badge image for harmony */
-.center-content img[alt*="Personality"] {
-  margin-top: 10px;      /* nudge closer to the intro */
-  max-width: 380px;      /* keeps it compact like the pill */
-}
-
+.section-card:hover { box-shadow: 0 2px 6px rgba(0,0,0,0.06); }
+ 
