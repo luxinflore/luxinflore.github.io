@@ -12,7 +12,7 @@ title: Home
 _I'm a product thinker and creative who cares about how people and animals live, feel, and make decisions. I build across software and hardware with a deep commitment to empathizing with users so that I can develop products that are beautiful, effortless, and enjoyable._
 
 <div class="center-content">
-  <img src="/assets/images/personality.png" alt="Personality: DISC Di Driver, Enneagram 8, INFJ" style="max-width: 260px;" />
+  <img src="/assets/images/personality.png" alt="Personality: DISC Di Driver, Enneagram 8, INFJ" style="max-width: 400px;" />
 </div>
 
 <div class="industry-experience">
