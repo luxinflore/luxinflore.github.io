@@ -31,11 +31,11 @@ title: Home
       </li>
       <li>
         <span class="wg-title">Count on me to keep momentum high</span>
-        <span class="wg-desc">I combine warmth and persuasive communication to keep people engaged and projects moving at a fast, focused pace.</span>
+        <span class="wg-desc">I blend warmth and persuasive communication to keep people engaged and projects moving fast.</span>
       </li>
       <li>
-        <span class="wg-title">Expect high standards with empathy</span>
-        <span class="wg-desc">I make sure teammates and stakeholders feel heard while driving for exceptional quality.</span>
+        <span class="wg-title">Expect exceptional quality with empathy</span>
+        <span class="wg-desc">I maintain a high bar for craft while making sure teammates and stakeholders feel heard.</span>
       </li>
       <li>
         <span class="wg-title">Lean on me for inventive strategy</span>
@@ -52,12 +52,12 @@ title: Home
         <span class="wg-desc">Give me a bold goal and context, then trust me to drive; close oversight slows me down.</span>
       </li>
       <li>
-        <span class="wg-title">Count on me for direct, candid dialogue</span>
+        <span class="wg-title">Look to me for direct, candid dialogue</span>
         <span class="wg-desc">I prefer straight talk and timely feedback so we can move fast and avoid misunderstandings.</span>
       </li>
       <li>
-        <span class="wg-title">Expect high standards with heart</span>
-        <span class="wg-desc">I hold myself and the work to a high bar while leading with empathy, offering thoughtful questions and constructive challenge.</span>
+        <span class="wg-title">Hold me to high standards with heart</span>
+        <span class="wg-desc">I hold myself and the work to a high standard while offering thoughtful questions and constructive challenge.</span>
       </li>
       <li>
         <span class="wg-title">Rely on my energy for 0→1 work</span>
