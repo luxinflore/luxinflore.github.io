@@ -26,8 +26,8 @@ title: Home
     <h3>Why You Want to Hire Me</h3>
     <ul class="wg-list2">
       <li>
-        <span class="wg-title">Rely on me to turn vision into launch</span>
-        <span class="wg-desc">I guide first-of-its-kind ideas from concept to market with creativity, precision, and urgency.</span>
+        <span class="wg-title">Rely on me to bring big ideas to life </span>
+        <span class="wg-desc">I guide first-of-its-kind ideas from concept to launch with creativity, precision, and urgency.</span>
       </li>
       <li>
         <span class="wg-title">Count on me to keep momentum high</span>
@@ -35,7 +35,7 @@ title: Home
       </li>
       <li>
         <span class="wg-title">Expect curiosity and inclusive insight</span>
-        <span class="wg-desc">I uphold a high bar for craft while actively drawing in customer and stakeholder perspectives to inform decisions that drive measurable impact.</span>
+        <span class="wg-desc">I uphold a high bar for craft while actively drawing in customer and stakeholder perspectives to inform decisions and drive measurable impact.</span>
       </li>
       <li>
         <span class="wg-title">Lean on me for inventive strategy</span>
@@ -49,19 +49,19 @@ title: Home
     <ul class="wg-list2">
       <li>
         <span class="wg-title">Trust me to own bold goals end-to-end</span>
-        <span class="wg-desc">Give me a clear objective and context, then let me drive; I light up when building something new and thrive when contributions are recognized.</span>
+        <span class="wg-desc">Give me a clear objective and context, then let me drive; I light up when building something new and thrive where contributions are recognized.</span>
       </li>
       <li>
-        <span class="wg-title">Look to me for direct, candid dialogue</span>
+        <span class="wg-title">Look to me for candid dialogue</span>
         <span class="wg-desc">I prefer straight talk and timely feedback so we can move fast and avoid misunderstandings.</span>
       </li>
       <li>
-        <span class="wg-title">Hold me to high standards</span>
-        <span class="wg-desc">I challenge ideas constructively and ask thoughtful questions while maintaining empathy and respect.</span>
+        <span class="wg-title">Hold me to rigorous inquiries</span>
+        <span class="wg-desc">I listen intently, challenge ideas constructively, and ask purposeful questions that refine strategy and spark better answers.</span>
       </li>
       <li>
-        <span class="wg-title">Rely on my curiosity and adaptability</span>
-        <span class="wg-desc">I stay curious and adaptable, synthesizing new insights into evolving strategies and adjusting quickly as priorities shift.</span>
+        <span class="wg-title">Rely on my adaptability</span>
+        <span class="wg-desc">Always eager to learn and roll with the punches, I synthesize new insights into evolving strategies and adjust quickly as priorities shift.</span>
       </li>
     </ul>
   </section>
