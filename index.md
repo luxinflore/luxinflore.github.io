@@ -12,8 +12,7 @@ title: Home
   <p>
     I'm a product thinker and creative who cares about how people and animals live,
     feel, and make decisions. I build across software and hardware with a deep commitment
-    to empathizing with users so that I can develop products that are beautiful,
-    effortless, and enjoyable.
+    to empathizing with users to develop products that are effortless, beautiful, and enjoyable.
   </p>
 </div>
 
