@@ -35,7 +35,7 @@ title: Home
       </li>
       <li>
         <span class="wg-title">Expect curiosity and inclusive insight</span>
-        <span class="wg-desc">I uphold a high bar for craft while actively drawing in customer and stakeholder perspectives to inform decisions and drive measurable impact.</span>
+        <span class="wg-desc">I uphold a high bar for craft while actively drawing in customer and stakeholder perspectives to inform decisions and drive measurable outcomes.</span>
       </li>
       <li>
         <span class="wg-title">Lean on me for inventive strategy</span>
