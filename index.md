@@ -34,8 +34,8 @@ title: Home
         <span class="wg-desc">I blend warmth and persuasive communication to keep people engaged and projects moving fast.</span>
       </li>
       <li>
-        <span class="wg-title">Expect exceptional quality with empathy</span>
-        <span class="wg-desc">I maintain a high bar for craft while making sure teammates and stakeholders feel heard.</span>
+        <span class="wg-title">Expect exceptional quality with inclusive insight</span>
+        <span class="wg-desc">I uphold a high bar for craft while actively drawing in customer and stakeholder perspectives to shape better outcomes.</span>
       </li>
       <li>
         <span class="wg-title">Lean on me for inventive strategy</span>
@@ -48,20 +48,20 @@ title: Home
     <h3>What to Know When Working With Me</h3>
     <ul class="wg-list2">
       <li>
-        <span class="wg-title">Trust me with autonomy over micromanagement</span>
-        <span class="wg-desc">Give me a bold goal and context, then trust me to drive; close oversight slows me down.</span>
+        <span class="wg-title">Trust me to own bold goals from start to finish</span>
+        <span class="wg-desc">Give me a clear objective and context, then let me drive. I light up when building something new and thrive when contributions are recognized, always giving credit where it’s due.</span>
       </li>
       <li>
         <span class="wg-title">Look to me for direct, candid dialogue</span>
         <span class="wg-desc">I prefer straight talk and timely feedback so we can move fast and avoid misunderstandings.</span>
       </li>
       <li>
-        <span class="wg-title">Hold me to high standards with heart</span>
-        <span class="wg-desc">I hold myself and the work to a high standard while offering thoughtful questions and constructive challenge.</span>
+        <span class="wg-title">Value my thoughtful, high standards</span>
+        <span class="wg-desc">I hold myself and the work to a high bar while offering constructive questions and challenges that sharpen ideas.</span>
       </li>
       <li>
-        <span class="wg-title">Rely on my energy for 0→1 work</span>
-        <span class="wg-desc">I light up when building something new and thrive on visible impact; repetitive maintenance drains me unless there’s a clear path to reinvention.</span>
+        <span class="wg-title">Count on my curiosity and adaptability</span>
+        <span class="wg-desc">I stay curious and synthesize new insights into evolving strategies, adjusting smoothly as priorities shift.</span>
       </li>
     </ul>
   </section>
