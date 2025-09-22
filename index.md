@@ -34,7 +34,7 @@ title: Home
         <span class="wg-desc">I blend warmth and persuasive communication to keep people engaged and projects moving fast.</span>
       </li>
       <li>
-        <span class="wg-title">Expect exceptional quality with inclusive insight</span>
+        <span class="wg-title">Expect curiosity and inclusive insight</span>
         <span class="wg-desc">I uphold a high bar for craft while actively drawing in customer and stakeholder perspectives to inform decisions that drive measurable impact.</span>
       </li>
       <li>
@@ -49,14 +49,14 @@ title: Home
     <ul class="wg-list2">
       <li>
         <span class="wg-title">Trust me to own bold goals end-to-end</span>
-        <span class="wg-desc">Give me a clear objective and context, then let me drive; I light up when building something new and thrive when contributions are recognized, always giving credit where it’s due.</span>
+        <span class="wg-desc">Give me a clear objective and context, then let me drive; I light up when building something new and thrive when contributions are recognized.</span>
       </li>
       <li>
         <span class="wg-title">Look to me for direct, candid dialogue</span>
         <span class="wg-desc">I prefer straight talk and timely feedback so we can move fast and avoid misunderstandings.</span>
       </li>
       <li>
-        <span class="wg-title">Hold me to high standards with heart</span>
+        <span class="wg-title">Hold me to high standards</span>
         <span class="wg-desc">I challenge ideas constructively and ask thoughtful questions while maintaining empathy and respect.</span>
       </li>
       <li>
