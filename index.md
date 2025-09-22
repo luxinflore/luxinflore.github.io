@@ -35,7 +35,7 @@ title: Home
       </li>
       <li>
         <span class="wg-title">Expect exceptional quality with inclusive insight</span>
-        <span class="wg-desc">I uphold a high bar for craft while actively drawing in customer and stakeholder perspectives to shape better outcomes.</span>
+        <span class="wg-desc">I uphold a high bar for craft while actively drawing in customer and stakeholder perspectives to inform decisions that drive measurable impact.</span>
       </li>
       <li>
         <span class="wg-title">Lean on me for inventive strategy</span>
@@ -56,12 +56,12 @@ title: Home
         <span class="wg-desc">I prefer straight talk and timely feedback so we can move fast and avoid misunderstandings.</span>
       </li>
       <li>
-        <span class="wg-title">Value my thoughtful, high standards</span>
-        <span class="wg-desc">I hold myself and the work to a high bar while offering constructive questions and challenges that sharpen ideas.</span>
+        <span class="wg-title">Hold me to high standards with heart</span>
+        <span class="wg-desc">I challenge ideas constructively and ask thoughtful questions while maintaining empathy and respect.</span>
       </li>
       <li>
-        <span class="wg-title">Count on my curiosity and adaptability</span>
-        <span class="wg-desc">I stay curious and synthesize new insights into evolving strategies, adjusting smoothly as priorities shift.</span>
+        <span class="wg-title">Rely on my curiosity and adaptability</span>
+        <span class="wg-desc">I stay curious and adaptable, synthesizing new insights into evolving strategies and adjusting quickly as priorities shift.</span>
       </li>
     </ul>
   </section>
