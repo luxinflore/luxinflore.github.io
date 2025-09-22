@@ -15,7 +15,7 @@
   <meta property="og:image" content="https://ayagare.com/assets/images/profile.png" />
 
   <!-- Add canonical link for SEO to signal the preferred URL -->
-  <link rel="canonical" href="https://ayagare.com/" />
+  <link rel="canonical" href="{{ site.url }}{{ page.url }}" />
 
   <!-- Set site favicon for browser tabs and bookmarks -->
   <link rel="icon" href="{{ '/assets/images/profile.png' | relative_url }}" />
@@ -33,9 +33,6 @@
       {{ content }}
     </div>
   </div>
-
-  <!-- External JavaScript for cat animation -->
-  <script src="{{ '/script.js' | relative_url }}"></script>
 
 <script>
   function toggleNav() {
@@ -65,6 +62,7 @@
   });
 </script>
 
+{% include footer.html %}
 </body>
 </html>
 

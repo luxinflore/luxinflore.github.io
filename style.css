@@ -463,3 +463,10 @@ a:hover::after { opacity: 1; }
   .wg-card.mini .wg-list2 li { max-width: 56ch; }
 }
 
+/* -------------------------------------------------
+ 	Make footer "stuck" to bottom on short pages
+ -------------------------------------------------*/
+html, body { height: 100%; }
+body { display: flex; flex-direction: column; }
+.container { flex: 1; }  /* keeps footer at bottom */
+
