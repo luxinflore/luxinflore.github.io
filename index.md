@@ -22,7 +22,7 @@ title: Home
 </div>
 
 <div class="wg-sections">
-  <section class="wg-card">
+  <section class="wg-card mini">
     <h3>Why You Want to Hire Me</h3>
     <ul class="wg-list2">
       <li>
@@ -44,7 +44,7 @@ title: Home
     </ul>
   </section>
 
-  <section class="wg-card">
+  <section class="wg-card mini">
     <h3>What to Know When Working With Me</h3>
     <ul class="wg-list2">
       <li>
