@@ -48,8 +48,8 @@ title: Home
     <h3>What to Know When Working With Me</h3>
     <ul class="wg-list2">
       <li>
-        <span class="wg-title">Trust me to own bold goals from start to finish</span>
-        <span class="wg-desc">Give me a clear objective and context, then let me drive. I light up when building something new and thrive when contributions are recognized, always giving credit where it’s due.</span>
+        <span class="wg-title">Trust me to own bold goals end-to-end</span>
+        <span class="wg-desc">Give me a clear objective and context, then let me drive; I light up when building something new and thrive when contributions are recognized, always giving credit where it’s due.</span>
       </li>
       <li>
         <span class="wg-title">Look to me for direct, candid dialogue</span>
