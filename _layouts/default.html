@@ -1,68 +1,79 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-  <title>{{ page.title }} – Aya Gare</title>
-  <meta name="description" content="I'm Aya Gare, a product leader & creative who builds thoughtful tools across software and hardware.">
-  
-  <!-- Open Graph Metadata -->
-  <meta property="og:title" content="Aya Gare – Product Leader & Builder" />
-  <meta property="og:description" content="Explore my product work, case studies, and creative projects." />
-  <meta property="og:url" content="https://ayagare.com" />
-  <meta property="og:type" content="website" />
-  <meta property="og:image" content="https://ayagare.com/assets/images/profile.png" />
+    <title>{{ page.title }} – Aya Gare</title>
+    <meta
+      name="description"
+      content="I'm Aya Gare, a product leader & creative who builds thoughtful tools across software and hardware."
+    />
 
-  <!-- Add canonical link for SEO to signal the preferred URL -->
-  <link rel="canonical" href="{{ site.url }}{{ page.url }}" />
+    <!-- Open Graph Metadata -->
+    <meta property="og:title" content="Aya Gare – Product Leader & Builder" />
+    <meta
+      property="og:description"
+      content="Explore my product work, case studies, and creative projects."
+    />
+    <meta property="og:url" content="https://ayagare.com" />
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:image"
+      content="https://ayagare.com/assets/images/profile.png"
+    />
 
-  <!-- Set site favicon for browser tabs and bookmarks -->
-  <link rel="icon" href="{{ '/assets/images/profile.png' | relative_url }}" />
+    <!-- Add canonical link for SEO to signal the preferred URL -->
+    <link rel="canonical" href="{{ site.url }}{{ page.url }}" />
 
-  <!-- Link to main stylesheet with cache-buster to force fresh CSS -->
-  <link rel="stylesheet" href="{{ '/style.css?v=4' | relative_url }}" />
+    <!-- Set site favicon for browser tabs and bookmarks -->
+    <link rel="icon" href="{{ '/assets/images/profile.png' | relative_url }}" />
 
-  <!-- Load custom script without blocking page rendering -->
-  <script src="{{ '/script.js' | relative_url }}" defer></script>
-</head>
-<body>
-  <div class="container">
-    {% include nav.html %}
-    <div class="main">
-      {{ content }}
+    <!-- Link to main stylesheet with cache-buster to force fresh CSS -->
+    <link rel="stylesheet" href="{{ '/style.css?v=5' | relative_url }}" />
+
+    <!-- Load custom script without blocking page rendering -->
+    <script src="{{ '/script.js' | relative_url }}" defer></script>
+  </head>
+  <body class="{{ page.class | default: '' }}">
+    <div class="container">
+      {% include nav.html %}
+      <div class="main">{{ content }}</div>
     </div>
-  </div>
 
-<script>
-  function toggleNav() {
-    const nav = document.getElementById('nav-menu');
-    nav.classList.toggle('show');
-  }
-</script>
+    <script>
+      function toggleNav() {
+        const nav = document.getElementById("nav-menu");
+        nav.classList.toggle("show");
+      }
+    </script>
 
+    <div id="img-lightbox" aria-hidden="true">
+      <button aria-label="Close">×</button>
+      <img alt="" />
+    </div>
+    <script>
+      // open on any .zoomable image
+      const lb = document.getElementById("img-lightbox");
+      const lbImg = lb.querySelector("img");
+      const close = () => lb.classList.remove("open");
+      lb.addEventListener(
+        "click",
+        (e) => (e.target === lb || e.target.tagName === "BUTTON") && close(),
+      );
+      document.addEventListener(
+        "keydown",
+        (e) => e.key === "Escape" && close(),
+      );
+      document.addEventListener("click", (e) => {
+        const img = e.target.closest("img.zoomable");
+        if (!img) return;
+        lbImg.src = img.currentSrc || img.src;
+        lbImg.alt = img.alt || "";
+        lb.classList.add("open");
+      });
+    </script>
 
-<div id="img-lightbox" aria-hidden="true">
-  <button aria-label="Close">×</button>
-  <img alt="">
-</div>
-<script>
-  // open on any .zoomable image
-  const lb = document.getElementById('img-lightbox');
-  const lbImg = lb.querySelector('img');
-  const close = () => lb.classList.remove('open');
-  lb.addEventListener('click', e => (e.target === lb || e.target.tagName==='BUTTON') && close());
-  document.addEventListener('keydown', e => e.key === 'Escape' && close());
-  document.addEventListener('click', e => {
-    const img = e.target.closest('img.zoomable');
-    if (!img) return;
-    lbImg.src = img.currentSrc || img.src;
-    lbImg.alt = img.alt || '';
-    lb.classList.add('open');
-  });
-</script>
-
-{% include footer.html %}
-</body>
+    {% include footer.html %}
+  </body>
 </html>
-

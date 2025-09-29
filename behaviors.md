@@ -1,11 +1,12 @@
 ---
 layout: default
-title: User Behaviors 
+title: User Behaviors
 permalink: /user-behaviors/
 ---
 
 # TBD
-<!-- Product Principles 
+
+<!-- Product Principles
 <div class="product-principles">
   <p><strong>Product Principles</strong></p>
   <p>⚡ Make it convenient!</p>

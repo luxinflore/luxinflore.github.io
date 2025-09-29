@@ -31,8 +31,7 @@ title: Home
 <div class="center-content">
   <img src="/assets/images/email.gif" alt="Email" style="max-width: 15%;" />
 
-  You can reach me at <span class="cat-hover-wrapper"><a href="mailto:hello@ayagare.com" class="sparkle-cat">hello@ayagare.com</a></span>.
+You can reach me at <span class="cat-hover-wrapper"><a href="mailto:hello@ayagare.com" class="sparkle-cat">hello@ayagare.com</a></span>.
 
   <img src="/assets/images/flowers.png" alt="Flowers" width="300" />
 </div>
-
