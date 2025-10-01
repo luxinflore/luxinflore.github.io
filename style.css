@@ -683,14 +683,5 @@ body {
 /* ------------------------------------------------------
    Resume page: widen content + allow full-width preview
 ------------------------------------------------------- */
-.page--resume .main {
-  max-width: min(1200px, 96vw);
-}
-
-/* ------------------------------------------------------
-   Resume page: make intro cards as wide as the PDF
-------------------------------------------------------- */
-.page--resume .wg-sections { width: 100%; max-width: none; margin-left: 0; margin-right: 0; }
-.page--resume .wg-card { width: 100%; max-width: none; }
-.page--resume .wg-card.mini .wg-list2 li { max-width: none; } /* remove 56ch cap for resume */
+.page--resume .main { max-width: min(1200px, 96vw); }
 
