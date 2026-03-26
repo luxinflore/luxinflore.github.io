@@ -20,6 +20,7 @@ title: Home
   <img src="/assets/images/personality.png" alt="Personality: DISC Di Driver, Enneagram 8, INFJ" style="max-width: 400px;" />
 </div>
 
+<!-- Temporarily hidden from published home page:
 <div class="industry-experience">
   <p><strong>Industry Experience (2016 – 2025)</strong></p>
   <p>📧 Email Marketing: ~3 years</p>
@@ -27,6 +28,7 @@ title: Home
   <p>📦 Consumer Goods: ~2 years</p>
   <p>✈️ Aerospace & Energy: ~1 year</p>
 </div>
+-->
 
 <div class="center-content">
   <img src="/assets/images/email.gif" alt="Email" style="max-width: 15%;" />
