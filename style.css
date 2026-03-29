@@ -690,3 +690,16 @@ body {
 ------------------------------------------------------- */
 .page--resume .wg-sections { max-width: none; width: 100%; grid-template-columns: 1fr; }
 
+/* Heading + download sit directly above the embedded PDF */
+.page--resume .resume-pdf-stack {
+  margin-top: 1.75rem;
+}
+.page--resume .resume-pdf-stack > h2 {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+}
+.page--resume .resume-pdf-stack > p {
+  margin-top: 0;
+  margin-bottom: 0.75rem;
+}
+
