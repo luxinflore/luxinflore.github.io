@@ -19,3 +19,8 @@ fi
 mkdir -p "$(dirname "$DATA")"
 printf 'last_updated: "%s"\n' "$DATE" > "$DATA"
 echo "Set resume last updated date to $DATE"
+
+if command -v python3 >/dev/null 2>&1; then
+  python3 -m pip install --quiet pypdf 2>/dev/null || true
+  python3 "$ROOT/scripts/set-resume-pdf-metadata.py" || true
+fi

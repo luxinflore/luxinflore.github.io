@@ -17,14 +17,16 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: Set resume last updated date
+      - name: Prepare resume PDF and date
         run: |
+          python3 -m pip install --quiet pypdf
+          python3 scripts/set-resume-pdf-metadata.py
           mkdir -p _data
           DATE=$(git log -1 --format=%cd --date=format:'%B %-d, %Y' -- assets/resume.pdf)
           printf 'last_updated: "%s"\n' "$DATE" > _data/resume.yml
 
-      - name: Commit date update
+      - name: Commit resume updates
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          commit_message: Update resume last updated date
-          file_pattern: _data/resume.yml
+          commit_message: Update resume metadata and last updated date
+          file_pattern: _data/resume.yml assets/resume.pdf

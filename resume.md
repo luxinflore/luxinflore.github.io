@@ -15,7 +15,7 @@ class: page--resume
   </p>
   <div class="pdf-desktop">
     <iframe
-      src="/assets/resume.pdf"
+      src="/assets/resume.pdf#toolbar=0&navpanes=0&scrollbar=0&view=FitH"
       class="pdf-frame"
       title="Aya Gare Resume"
     ></iframe>
