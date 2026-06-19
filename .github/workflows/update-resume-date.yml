@@ -1,0 +1,30 @@
+name: Update resume date
+
+on:
+  push:
+    branches: [master]
+    paths:
+      - assets/resume.pdf
+
+permissions:
+  contents: write
+
+jobs:
+  update-resume-date:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set resume last updated date
+        run: |
+          mkdir -p _data
+          DATE=$(git log -1 --format=%cd --date=format:'%B %-d, %Y' -- assets/resume.pdf)
+          printf 'last_updated: "%s"\n' "$DATE" > _data/resume.yml
+
+      - name: Commit date update
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: Update resume last updated date
+          file_pattern: _data/resume.yml

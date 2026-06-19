@@ -11,7 +11,7 @@ class: page--resume
 <div class="resume-pdf-stack">
   <h2 id="resume-pdf">Resume</h2>
   <p>
-    <a href="/assets/resume.pdf">📄 Download Resume (PDF)</a>
+    Download my resume <a href="/assets/resume.pdf">here</a>. Last updated {{ site.data.resume.last_updated }}.
   </p>
   <div class="pdf-desktop">
     <iframe
