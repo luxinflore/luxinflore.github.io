@@ -10,10 +10,10 @@ if [[ ! -f "$RESUME" ]]; then
   exit 1
 fi
 
-DATE="$(git -C "$ROOT" log -1 --format=%cd --date=format:'%B %-d, %Y' -- assets/resume.pdf 2>/dev/null || true)"
+DATE="$(git -C "$ROOT" log -1 --format=%cd --date=format:'%B %Y' -- assets/resume.pdf 2>/dev/null || true)"
 
 if [[ -z "$DATE" ]]; then
-  DATE="$(date +"%B %-d, %Y")"
+  DATE="$(date +"%B %Y")"
 fi
 
 mkdir -p "$(dirname "$DATA")"

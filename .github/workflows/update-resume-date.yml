@@ -22,7 +22,7 @@ jobs:
           python3 -m pip install --quiet pypdf
           python3 scripts/set-resume-pdf-metadata.py
           mkdir -p _data
-          DATE=$(git log -1 --format=%cd --date=format:'%B %-d, %Y' -- assets/resume.pdf)
+          DATE=$(git log -1 --format=%cd --date=format:'%B %Y' -- assets/resume.pdf)
           printf 'last_updated: "%s"\n' "$DATE" > _data/resume.yml
 
       - name: Commit resume updates
