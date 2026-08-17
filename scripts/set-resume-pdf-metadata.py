@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Set PDF title/author so browser viewers don't show (anonymous)."""
+"""Set PDF title so browser viewers don't show (anonymous)."""
 
 from __future__ import annotations
 
@@ -12,8 +12,6 @@ ROOT = Path(__file__).resolve().parents[1]
 RESUME = ROOT / "assets" / "resume.pdf"
 METADATA = {
     "/Title": "Aya Gare Resume",
-    "/Author": "Aya Gare",
-    "/Subject": "Resume",
 }
 
 
