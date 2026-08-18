@@ -1,6 +1,16 @@
 /* -----------------------------
    Base styling
 ------------------------------ */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  overflow-x: clip;
+}
+
 body {
   font-family: system-ui, sans-serif;
   font-size: 14px;
@@ -8,6 +18,12 @@ body {
   padding: 0;
   background: #fff;
   color: #000;
+  overflow-x: clip;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
 }
 
 p {
@@ -54,6 +70,7 @@ p {
 .main {
   flex: 1;
   max-width: 700px;
+  min-width: 0;
   line-height: 1.6;
 }
 
@@ -63,11 +80,13 @@ p {
     padding: 0 16px;
   }
   .sidebar {
+    min-width: 0;
     margin-right: 0;
     margin-bottom: 20px;
   }
   .main {
     max-width: 100%;
+    width: 100%;
   }
   img.profile-pic {
     width: 120px;
@@ -289,6 +308,7 @@ a:hover::after {
 /* Personality badge image spacing */
 .center-content img[alt*="Personality"] {
   margin-top: 10px;
+  width: 100%;
   max-width: 380px;
 }
 
@@ -298,11 +318,12 @@ a:hover::after {
 .home-accordions {
   display: grid;
   gap: 12px;
-  max-width: 720px;
+  max-width: 380px;
   width: 100%;
   margin: 0 auto;
   padding: 18px 16px;
-  background: #ffe4ee;
+  background: transparent;
+  border: 2px solid #fff1e9;
   border-radius: 16px;
 }
 
@@ -337,6 +358,8 @@ a:hover::after {
 .page--home .wg-accordion__summary {
   justify-content: center;
   gap: 8px;
+  font-size: 0.82rem;
+  font-weight: 600;
 }
 
 .page--home .wg-accordion {
@@ -371,10 +394,12 @@ a:hover::after {
 
 .page--home .wg-card.mini .wg-list2 {
   gap: 8px;
+  grid-template-columns: 1fr;
+  margin-top: 24px;
 }
 
 .page--home .wg-card.mini .wg-list2 li {
-  text-align: center;
+  text-align: left;
   padding: 7px 9px 7px 11px;
 }
 
@@ -426,11 +451,12 @@ a:hover::after {
    Contact links (icon + label + full URL)
 ------------------------------ */
 .find-me-section {
-  max-width: 720px;
+  max-width: 380px;
   width: 100%;
   margin: 0 auto;
   padding: 18px 16px;
-  background: #d0eed8;
+  background: transparent;
+  border: 2px solid #fff1e9;
   border-radius: 16px;
 }
 

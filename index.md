@@ -18,7 +18,7 @@ class: page--home
 </div>
 
 <div class="center-content">
-  <img src="/assets/images/personality.png" alt="Personality: DISC Di Driver, Enneagram 8, INFJ" style="max-width: 400px;" />
+  <img src="/assets/images/personality.png" alt="Personality: DISC Di Driver, Enneagram 8, INFJ" />
 </div>
 
 <div class="home-accordions">
