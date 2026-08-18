@@ -297,9 +297,10 @@ a:hover::after {
 ------------------------------ */
 .home-accordions {
   display: grid;
-  gap: 14px;
+  gap: 12px;
   max-width: 720px;
-  margin: 36px auto;
+  width: 100%;
+  margin: 0 auto;
   padding: 18px 16px;
   background: #ffe4ee;
   border-radius: 16px;
@@ -307,6 +308,30 @@ a:hover::after {
 
 .page--home .main {
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 28px;
+}
+
+.page--home .center-content,
+.page--home .intro-text,
+.page--home .home-accordions,
+.page--home .find-me-section {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.page--home .center-content img {
+  margin: 0 auto;
+}
+
+.page--home .intro-text p {
+  margin-bottom: 0;
+}
+
+.page--home .center-content img[alt*="Personality"] {
+  margin-top: 0;
 }
 
 .page--home .wg-accordion__summary {
@@ -400,10 +425,18 @@ a:hover::after {
 /* -----------------------------
    Contact links (icon + label + full URL)
 ------------------------------ */
+.find-me-section {
+  max-width: 720px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 18px 16px;
+  background: #d0eed8;
+  border-radius: 16px;
+}
+
 .find-me {
   list-style: none;
-  max-width: 720px;
-  margin: 8px auto 0;
+  margin: 0;
   padding: 0;
   display: grid;
   gap: 12px;
@@ -436,7 +469,9 @@ a:hover::after {
 
 .find-me a {
   overflow-wrap: anywhere;
-  font-size: 0.9rem;
+  font-size: 0.78rem;
+  font-weight: 400;
+  color: rgba(0, 102, 204, 0.9);
 }
 
 .wg-accordion .wg-list2 {

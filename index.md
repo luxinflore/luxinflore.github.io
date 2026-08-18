@@ -26,6 +26,7 @@ class: page--home
   {% include work-with-me.md %}
 </div>
 
+<div class="find-me-section">
 <ul class="find-me">
     <li>
       <span class="find-me-label">
@@ -81,6 +82,7 @@ class: page--home
       <span class="cat-hover-wrapper"><a href="mailto:hello@ayagare.com" class="sparkle-cat">hello@ayagare.com</a></span>
     </li>
   </ul>
+</div>
 
 <!-- Temporarily hidden from published home page:
 <div class="industry-experience">
