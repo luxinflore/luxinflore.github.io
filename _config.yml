@@ -2,3 +2,8 @@ title: Aya Gare
 markdown: kramdown
 permalink: pretty
 url: "https://ayagare.com"
+exclude:
+  - luxinflore.github.io
+  - vendor
+  - Gemfile
+  - Gemfile.lock

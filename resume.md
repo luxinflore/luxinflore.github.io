@@ -5,9 +5,6 @@ permalink: /resume/
 class: page--resume
 ---
 
-{% include why-hire-me.md %}
-{% include work-with-me.md %}
-
 <div class="resume-pdf-stack">
   <h2 id="resume-pdf">Resume</h2>
   <p>
