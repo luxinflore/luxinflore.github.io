@@ -61,11 +61,6 @@ p {
   }
 }
 
-.sidebar h2 {
-  margin-top: 0;
-  font-size: 22px;
-}
-
 /* Main content styling */
 .main {
   flex: 1;
