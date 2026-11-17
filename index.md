@@ -12,8 +12,8 @@ class: page--home
   <h1>Hi, I'm Aya!</h1>
   <p>
     I'm a product thinker and creative who cares about how technology, economic incentives,
-    and other influences shape what people believe and how they behave, and how their
-    actions affect the lives of both people and animals.
+    and other influences shape what people believe and how they behave, and the broader
+    impact of their actions.
   </p>
 </div>
 
