@@ -11,12 +11,13 @@ class: page--home
 <div class="intro-text">
   <h1>Hi, I'm Aya!</h1>
   <p>
-    I'm a product thinker and creative who cares about how people and animals live,
-    feel, and make decisions. I build across software and hardware with a deep commitment
-    to empathizing with users to develop products that are effortless, beautiful, and enjoyable.
+    I'm a product thinker and creative who cares about how technology, economic incentives,
+    and other influences shape what people believe and how they behave, and how their
+    actions affect the lives of both people and animals.
   </p>
 </div>
 
+<!-- Temporarily hidden from published home page:
 <div class="center-content">
   <img src="/assets/images/personality.png" alt="Personality: DISC Di Driver, Enneagram 8, INFJ" />
 </div>
@@ -25,7 +26,10 @@ class: page--home
   {% include why-hire-me.md %}
   {% include work-with-me.md %}
 </div>
+-->
 
+{% comment %}
+Temporarily hidden from published home page:
 <div class="find-me-section">
 <ul class="find-me">
     <li>
@@ -48,6 +52,7 @@ class: page--home
       </span>
       <a href="https://github.com/luxinflore" rel="me">https://github.com/luxinflore</a>
     </li>
+    <!-- Temporarily hidden from published home page:
     <li>
       <span class="find-me-label">
         <svg class="find-me-icon" viewBox="0 0 24 24" aria-hidden="true">
@@ -68,6 +73,7 @@ class: page--home
       </span>
       <a href="https://hellopoetry.com/@aya-gare">https://hellopoetry.com/@aya-gare</a>
     </li>
+    -->
     <li>
       <span class="find-me-label">
         <svg class="find-me-icon" viewBox="0 0 48 48" aria-hidden="true">
@@ -83,6 +89,7 @@ class: page--home
     </li>
   </ul>
 </div>
+{% endcomment %}
 
 <!-- Temporarily hidden from published home page:
 <div class="industry-experience">
