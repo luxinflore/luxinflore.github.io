@@ -914,11 +914,11 @@ body {
 /* ------------------------------------------------------
    Resume page: widen content + allow full-width preview
 ------------------------------------------------------- */
-.page--resume .container {
+:is(.page--resume, .page--cv) .container {
   max-width: min(1400px, 96vw);
   width: 100%;
 }
-.page--resume .main {
+:is(.page--resume, .page--cv) .main {
   max-width: none;
   width: 100%;
   min-width: 0;
@@ -927,25 +927,25 @@ body {
 /* ------------------------------------------------------
    Resume intro block: use full container width
 ------------------------------------------------------- */
-.page--resume .wg-sections { max-width: none; width: 100%; grid-template-columns: 1fr; }
+:is(.page--resume, .page--cv) .wg-sections { max-width: none; width: 100%; grid-template-columns: 1fr; }
 
 /* Heading + download sit directly above the embedded PDF */
-.page--resume .resume-pdf-stack,
-.page--resume .pdf-desktop {
+:is(.page--resume, .page--cv) .resume-pdf-stack,
+:is(.page--resume, .page--cv) .pdf-desktop {
   width: 100%;
 }
-.page--resume .resume-pdf-stack {
+:is(.page--resume, .page--cv) .resume-pdf-stack {
   margin-top: 1.75rem;
 }
-.page--resume .resume-pdf-stack > h2 {
+:is(.page--resume, .page--cv) .resume-pdf-stack > h2 {
   margin-top: 0;
   margin-bottom: 0.5rem;
 }
-.page--resume .resume-pdf-stack > p {
+:is(.page--resume, .page--cv) .resume-pdf-stack > p {
   margin-top: 0;
   margin-bottom: 0.75rem;
 }
-.page--resume .pdf-frame {
+:is(.page--resume, .page--cv) .pdf-frame {
   display: block;
   width: 100%;
 }
